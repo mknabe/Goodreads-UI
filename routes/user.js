@@ -1,5 +1,5 @@
 var OAuth = require('oauth');
-var config = require('./config.json')
+var config = require('../config.json')
 
 exports.login = function(req, res) {
   var oauth = new OAuth.OAuth(

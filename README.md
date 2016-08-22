@@ -14,7 +14,17 @@ Create a `config.json` file at the root of the project.
 {
   "goodreads": {
     "key": "[APP KEY]",
-    "secret": "[APP SECRET]",
+    "secret": "[APP SECRET]"
   }
 }
 ```
+
+## TO DO
+
+- Get user info (user.show)
+- Get a user's shelves (shelves.show)
+- Get the books on a members shelf (reviews.list)
+
+## Sources
+
+- [StackOverflow Node OAuth](http://stackoverflow.com/questions/12873463/how-to-send-the-oauth-request-in-node)
