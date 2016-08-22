@@ -5,4 +5,5 @@ module.exports = function(app) {
   app.get('/', main.home);
   app.get('/login', user.login);
   app.get('/goodreads_oauth_callback', user.oauthCallback);
+  app.get('/user', user.getUser);
 };

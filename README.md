@@ -15,14 +15,15 @@ Create a `config.json` file at the root of the project.
   "goodreads": {
     "key": "[APP KEY]",
     "secret": "[APP SECRET]"
-  }
+  },
+  "sessionSecret": "[SOME SECRET]"
 }
 ```
 
 ## TO DO
 
 - Get user info (user.show)
-- Get a user's shelves (shelves.show)
+- Get a user's shelves (shelves.list)
 - Get the books on a members shelf (reviews.list)
 
 ## Sources

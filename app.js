@@ -12,7 +12,7 @@ var handlebars = require('express-handlebars').create({
   }
 });
 
-// var properties = require('./properties.js');
+var config = require('./config.json');
 // var mongoose = require('mongoose');
 
 var opts = {
@@ -24,12 +24,16 @@ var opts = {
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-
+app.use(express.static(__dirname + '/public'));
 app.set('port', process.env.PORT || 3000);
 
-app.use(express.static(__dirname + '/public'));
-
 app.use(require('body-parser').urlencoded({ extended: true }));
+
+app.use(require('express-session')({
+  resave: false,
+  saveUninitialized: false,
+  secret: config.sessionSecret
+}));
 
 require('./routes.js')(app);
 
