@@ -22,9 +22,16 @@ Create a `config.json` file at the root of the project.
 
 ## TO DO
 
-- Get user info (user.show)
-- Get a user's shelves (shelves.list)
-- Get the books on a members shelf (reviews.list)
+[ ] Setup mongo db
+[ ] Sync goodreads shelves and reviews
+[ ] View shelves
+[ ] View book
+[ ] View review
+
+[ ] Use mongo session store [here](https://www.npmjs.com/package/connect-mongodb-session)
+[ ] Allow user to read book multiple times
+
+[ ] Sync status updates with goodreads (right now there's no way to read a user's updates without the specific id?)
 
 ## Sources
 

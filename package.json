@@ -2,6 +2,7 @@
   "name": "goodreads-ui",
   "version": "1.0.0",
   "description": "",
+  "repository": "https://github.com/mknabe/Goodreads-UI.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +15,8 @@
     "express-handlebars": "^3.0.0",
     "express-session": "^1.14.0",
     "mongoose": "^4.5.9",
-    "oauth": "^0.9.14"
+    "oauth": "^0.9.14",
+    "request": "^2.74.0",
+    "xml2js": "^0.4.17"
   }
 }
