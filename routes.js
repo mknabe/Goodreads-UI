@@ -1,21 +1,16 @@
-var main = require('./routes/main.js');
-var oauth = require('./routes/goodreads/authentication.js');
-var goodreads = require('./routes/goodreads/goodreads.js');
-// var books = require('./routes/books.js');
+var home = require('./routes/homeRoutes.js');
+var user = require('./routes/userRoutes.js');
+var sync = require('./routes/syncRoutes.js');
+// var books = require('./services/bookDao');
 
 module.exports = function(app) {
-  app.get('/', main.home);
+  app.get('/', home.home);
 
-  app.get('/login', oauth.getLoginForm);
-  app.post('/login', oauth.getRequestToken);
-  app.get('/goodreads_oauth_callback', oauth.getAccessToken);
+  app.get('/login', user.getLoginForm);
+  app.post('/login', user.getRequestToken);
+  app.get('/goodreads_oauth_callback', user.getAccessToken);
   
-  app.get('/goodreads/updates', goodreads.getUpdatesFeed);
-  app.get('/goodreads/shelves', goodreads.getUserShelves);
-  app.get('/goodreads/books', goodreads.getUsersBooks);
-  app.get('/goodreads/book/:goodreadsId', goodreads.findBook);
-  app.get('/goodreads/book/:seriesId', goodreads.findSeries);
-  app.get('/goodreads/book/:authorId', goodreads.findAuthor);
+  app.get('/sync', sync.sync);
 
 
 };

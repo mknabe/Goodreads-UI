@@ -1,5 +1,5 @@
 var OAuth = require('oauth');
-var config = require('../../config.json');
+var config = require('../config.json');
 
 var oauth = new OAuth.OAuth(
       'http://www.goodreads.com/oauth/request_token',

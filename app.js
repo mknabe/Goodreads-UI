@@ -13,14 +13,14 @@ var handlebars = require('express-handlebars').create({
 });
 
 var config = require('./config.json');
-// var mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
 var opts = {
   server: {
     socketOptions: { keepAlive: 1 }
   }
 };
-// mongoose.connect(properties.mongo.development.connectionString, opts);
+mongoose.connect('mongodb://localhost/goodreads-ui', opts);
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
