@@ -1,11 +1,11 @@
 var mongoose = require('mongoose');
-var book = require('./book');
-var user = require('./user');
-var reading = require('./reading');
+var Book = require('./book');
+var User = require('./user');
+var Reading = require('./reading');
 
 var reviewSchema = mongoose.Schema({
-  book: book,
-  user: user,
+  book: Book,
+  user: User,
   goodreads: {
     id: String,
     url: String
@@ -13,7 +13,7 @@ var reviewSchema = mongoose.Schema({
   rating: Number,
   body: String,
   shelves: [String],
-  readings: [reading],
+  readings: [Reading],
   owned: Boolean,
   dateAdded: Date
 });

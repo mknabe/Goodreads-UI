@@ -1,10 +1,11 @@
 var mongoose = require('mongoose');
-var author = require('./author');
+var Author = require('./author');
 
 var bookSchema = mongoose.Schema({
   title: String,
   sortByTitle: String,
-  authors: [author],
+  authors: [Author],
+  description: String,
   series: {
     title: String,
     position: Number
@@ -29,11 +30,7 @@ var bookSchema = mongoose.Schema({
     total: Number,
     text: Number
   },
-  publication: {
-    day: Number,
-    month: Number,
-    year: Number
-  }
+  publication: Date,
   isbn: String,
   isbn13: String,
   numPages: Number

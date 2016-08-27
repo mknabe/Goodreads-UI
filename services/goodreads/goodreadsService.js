@@ -2,6 +2,7 @@ var request = require('request');
 var xml2js = require('xml2js').parseString;
 var config = require('../../config.json');
 var oauth = require('./../../config/oauthConfig');
+var mapper = require('./mapperService');
 
 var goodreadsUrl = 'https://www.goodreads.com';
 
@@ -28,15 +29,20 @@ exports.findShelvesForUser = function(user, callback) {
     function(error, response, body) {
       if (error) callback(error);
       xml2js(response, function (err, result) {
-        callback(err, result);
+        var shelvesXml = result.GoodreadsResponse.shelves[0].user_shelf;
+        var shelves = [];
+        shelvesXml.forEach(function (shelf) {
+          shelves.push(shelf.name[0]);
+        });
+        callback(err, shelves);
       });
     });
 };
 
 // reviews.list
-exports.findBooksForUser = function(user, params, callback) {
+exports.findReviewsForUser = function(user, params, callback) {
   var url = goodreadsUrl + '/review/list/' + user.goodreads_user_id + '.xml?v=2&key=' + config.goodreads.key;
-  console.log(params);
+  url += '&sort=date_updated';
 
   if (params.shelf) {
     url+= '&shelf=' + params.shelf;
@@ -58,8 +64,10 @@ exports.findBooksForUser = function(user, params, callback) {
     user.user_oauth_token_secret,
     function(error, response, body) {
       if (error) callback(error);
-      xml2js(body, function (err, result) {
-        callback(err, result);
+      xml2js(response, function (err, result) {
+        var reviewsXml = result.GoodreadsResponse.reviews[0].review;
+        var reviews = mapper.mapReviews(reviewsXml);
+        callback(err, reviews);
       });
     });
 };
