@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "repository": "https://github.com/mknabe/Goodreads-UI.git",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha"
   },
-  "author": "",
+  "author": "Maria K",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.0.1",
+    "bluebird": "^3.4.4",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
@@ -20,5 +22,11 @@
     "oauth": "^0.9.14",
     "request": "^2.74.0",
     "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2"
   }
 }

@@ -1,4 +1,8 @@
 var express = require('express');
+var mongoose = require('mongoose');
+var Promise = require('bluebird');
+var config = require('./config.json');
+
 var app = express();
 
 var handlebars = require('express-handlebars').create({
@@ -12,15 +16,14 @@ var handlebars = require('express-handlebars').create({
   }
 });
 
-var config = require('./config.json');
-var mongoose = require('mongoose');
-
 var opts = {
   server: {
     socketOptions: { keepAlive: 1 }
-  }
+  },
+  promiseLibrary: Promise
 };
-mongoose.connect('mongodb://localhost/goodreads-ui', opts);
+mongoose.connect(config.mongo[app.settings.env], opts);
+mongoose.Promise = Promise;
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');

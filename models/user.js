@@ -6,6 +6,7 @@ var userSchema = mongoose.Schema({
   // password
   goodreads: {
     id: String,
+    // TODO: encode these
     oauthToken: String,
     oauthTokenSecret: String
   }

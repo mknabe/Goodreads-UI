@@ -1,11 +1,17 @@
 var mongoose = require('mongoose');
-var Book = require('./book');
-var User = require('./user');
-var Reading = require('./reading');
+var Reading = require('./readingSchema');
 
 var reviewSchema = mongoose.Schema({
-  book: Book,
-  user: User,
+  bookId: {
+    type: mongoose.Schema.ObjectId,
+    ref: 'Book',
+    required: true
+  },
+  username: {
+    type: String,
+    ref: 'User.username',
+    required: true
+  },
   goodreads: {
     id: String,
     url: String

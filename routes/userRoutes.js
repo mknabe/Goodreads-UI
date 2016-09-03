@@ -5,7 +5,7 @@ var config = require('../config');
 
 exports.getLoginForm = function (req, res) {
   res.render('login', {
-    defaultUserId: config.defaultUserId
+    defaultUserId: config.goodreads.defaultUserId
   });
 };
 

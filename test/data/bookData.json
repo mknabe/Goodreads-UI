@@ -1,0 +1,10 @@
+{
+  "books": [
+    {
+      "title": "Little House on the Prairie",
+      "goodreads": {
+        "id": "123"
+      }
+    }
+  ]
+}

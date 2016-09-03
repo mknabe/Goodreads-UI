@@ -8,5 +8,4 @@ var readingSchema = mongoose.Schema({
     enum : ['LISTENED', 'READ', 'BOTH']
   }
 });
-var Reading = mongoose.model('Reading', readingSchema);
-module.exports = Reading;
+module.exports = readingSchema;

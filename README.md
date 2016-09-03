@@ -16,22 +16,42 @@ Create a `config.json` file at the root of the project.
     "key": "[APP KEY]",
     "secret": "[APP SECRET]"
   },
-  "sessionSecret": "[SOME SECRET]"
+  "sessionSecret": "[SOME SECRET]",
+  "mongo": {
+    "development": "mongodb://localhost/goodreads-ui",
+    "test": "mongodb://localhost/goodreads-ui-test"
+  }
 }
+```
+
+## Start up 
+
+```
+$ npm install
+$ npm start
+```
+
+## Tests
+
+```
+$ npm test
+$ npm run coverage
 ```
 
 ## TO DO
 
-- [ ] Setup mongo db
 - [ ] Sync goodreads shelves and reviews
 - [ ] View shelves
 - [ ] View book
 - [ ] View review
 
 - [ ] Use mongo session store [here](https://www.npmjs.com/package/connect-mongodb-session)
-- [ ] Allow user to read book multiple times
-
 - [ ] Sync status updates with goodreads (right now there's no way to read a user's updates without the specific id?)
+
+- [ ] Allow user to read book multiple times
+- [ ] Allow user to have different to-read lists based on what is reserved at the library or downloaded
+
+- [ ] Integrate with [Overdrive API](https://developer.overdrive.com/docs/getting-started) to find what's available at library
 
 ## Sources
 
