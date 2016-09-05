@@ -1,7 +1,7 @@
 var home = require('./routes/homeRoutes.js');
 var user = require('./routes/userRoutes.js');
 var sync = require('./routes/syncRoutes.js');
-// var books = require('./services/bookDao');
+var goodreads = require('./routes/goodreadsRoutes');
 
 module.exports = function(app) {
   app.get('/', home.home);
@@ -11,6 +11,13 @@ module.exports = function(app) {
   app.get('/goodreads_oauth_callback', user.getAccessToken);
   
   app.get('/sync', sync.sync);
+
+  app.get('/goodreads/book/:id', goodreads.getBook);
+  app.get('/goodreads/series/:id', goodreads.getSeries);
+  app.get('/goodreads/author/:id', goodreads.getAuthor);
+  app.get('/goodreads/review/:id', goodreads.getReview);
+  app.get('/goodreads/user_status/:id', goodreads.getUserStatus);
+  app.get('/goodreads/read_status/:id', goodreads.getReadStatus);
 
 
 };

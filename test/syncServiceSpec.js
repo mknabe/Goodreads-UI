@@ -1,41 +1,33 @@
 process.env.NODE_ENV = 'test';
 
-var chai = require('chai');
-var should = chai.should();
-var bookData = require('./data/bookData').books;
-var userData = require('./data/userData').users;
-
 var Promise = require('bluebird');
 var mongoose = require('mongoose');
+
+var chai = require('chai');
+var should = chai.should();
+var bookData = require('./data/seed/bookData').books;
+var userData = require('./data/seed/userData').users;
+var testUtil = require('./util/testUtil');
 
 var User = require('../models/User');
 var Book = require('../models/book');
 var syncService = require('../services/syncService');
 var bookDao = require('../services/bookDao');
 
-before(function () {
-  mongoose.Promise = Promise;
+before(function (done) {
+  testUtil.connectToDb(done);
+});
+
+beforeEach(function (done) {
+  Promise.all([
+    testUtil.seedBooks(),
+    testUtil.seedUsers()
+  ]).then(function() {
+    done();
+  });
 });
 
 describe('Syncing books', function () {
-  beforeEach(function (done) {
-    Promise.all([
-      Book.collection.insertMany(bookData),
-      User.collection.insertMany(userData)
-    ]).then(function() {
-      done();
-    });
-  });
-
-  afterEach(function (done) {
-    Promise.all([
-        Book.remove({}),
-        User.remove({})
-    ]).then(function() {
-      done();
-    });
-  });
-
   it('should get the book if it already exists', function(done) {
     var existingBook = bookData[0];
     var id = mongoose.Types.ObjectId(bookData[0]._id);
@@ -78,7 +70,7 @@ describe('Syncing reviews', function() {
     syncService.syncReview(newReview, username).then(function (review) {
       should.exist(review);
       review.username.should.equal(username);
-      review.bookId.should.exist();
+      should.exist(review.bookId);
       done();
     });
   });

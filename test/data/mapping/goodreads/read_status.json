@@ -1,0 +1,152 @@
+{
+  "GoodreadsResponse": {
+    "Request": [
+      {
+        "authentication": [
+          "true"
+        ],
+        "key": [
+          "XBEFnXtsEWQs1rcMNVrZA"
+        ],
+        "method": [
+          "read_statuses_show"
+        ]
+      }
+    ],
+    "read_status": [
+      {
+        "id": [
+          "1481940446"
+        ],
+        "header": [
+          "\nMaria finished reading <a href=\"https://www.goodreads.com/review/show/1666837259\">Between the World and Me</a>\n"
+        ],
+        "likes_count": [
+          "0"
+        ],
+        "comments_count": [
+          "0"
+        ],
+        "liked": [
+          "false"
+        ],
+        "created_at": [
+          "2016-08-23T06:41:22-07:00"
+        ],
+        "updated_at": [
+          "2016-08-23T06:41:22-07:00"
+        ],
+        "status": [
+          "read"
+        ],
+        "review_id": [
+          "1666837259"
+        ],
+        "book": [
+          {
+            "id": [
+              "25489625"
+            ],
+            "title": [
+              "Between the World and Me"
+            ],
+            "title_without_series": [
+              "Between the World and Me"
+            ],
+            "link": [
+              "https://www.goodreads.com/book/show/25489625-between-the-world-and-me"
+            ],
+            "small_image_url": [
+              "https://d2arxad8u2l0g7.cloudfront.net/books/1451435027s/25489625.jpg"
+            ],
+            "image_url": [
+              "https://d2arxad8u2l0g7.cloudfront.net/books/1451435027m/25489625.jpg"
+            ],
+            "num_pages": [
+              "152"
+            ],
+            "work": [
+              {
+                "id": [
+                  "44848425"
+                ]
+              }
+            ],
+            "isbn": [
+              "0812993543"
+            ],
+            "isbn13": [
+              "9780812993547"
+            ],
+            "average_rating": [
+              "4.37"
+            ],
+            "ratings_count": [
+              "39989"
+            ],
+            "publication_year": [
+              "2015"
+            ],
+            "publication_month": [
+              "7"
+            ],
+            "publication_day": [
+              "14"
+            ],
+            "authors": [
+              {
+                "author": [
+                  {
+                    "id": [
+                      "1214964"
+                    ],
+                    "name": [
+                      "Ta-Nehisi Coates"
+                    ],
+                    "link": [
+                      "https://www.goodreads.com/author/show/1214964.Ta_Nehisi_Coates"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "user": [
+          {
+            "id": [
+              "5964172"
+            ],
+            "name": [
+              "Maria"
+            ],
+            "display_name": [
+              "Maria"
+            ],
+            "location": [
+              "Dallas, TX"
+            ],
+            "link": [
+              "https://www.goodreads.com/user/show/5964172-maria"
+            ],
+            "image_url": [
+              "https://d2arxad8u2l0g7.cloudfront.net/users/1453590169p3/5964172.jpg"
+            ],
+            "small_image_url": [
+              "https://d2arxad8u2l0g7.cloudfront.net/users/1453590169p2/5964172.jpg"
+            ]
+          }
+        ],
+        "comments": [
+          {
+            "$": {
+              "start": "0",
+              "end": "0",
+              "total": "0"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

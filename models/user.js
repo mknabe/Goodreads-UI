@@ -2,10 +2,16 @@ var mongoose = require('mongoose');
 
 var userSchema = mongoose.Schema({
   name: String,
-  username: String,
+  username: {
+    type: String,
+    unique: true
+  },
   // password
   goodreads: {
-    id: String,
+    id: {
+      type: String,
+      unique: true
+    },
     // TODO: encode these
     oauthToken: String,
     oauthTokenSecret: String

@@ -1,46 +1,54 @@
-var request = require('request');
-var xml2js = require('xml2js').parseString;
+var Promise = require('bluebird');
+var request = Promise.promisifyAll(require("request"));
+var xml2js = Promise.promisifyAll(require('xml2js'));
 var config = require('../../config.json');
 var oauth = require('./../../config/oauthConfig');
 var mapper = require('./mapperService');
 
 var goodreadsUrl = 'https://www.goodreads.com';
 
+var parseXml = function (xml) {
+  return xml2js.parseStringAsync(xml);
+};
+
 // updates.friends
-exports.getUpdatesFeed = function (user, callback) {
+exports.getUpdatesFeed = function (user) {
+  return new Promise(function (resolve, reject) {
     oauth.get(
-      goodreadsUrl + '/updates/friends.xml',
-      user.user_oauth_token,
-      user.user_oauth_token_secret,
-      function(error, response, body) {
-        if (error) callback(error);
-        xml2js(response, function (err, result) {
-          callback(err, result);
+        goodreadsUrl + '/updates/friends.xml',
+        user.user_oauth_token,
+        user.user_oauth_token_secret,
+        function(error, response, body) {
+          if (error) reject(error);
+          resolve(parseXml(response));
         });
-      });
+  });
 };
 
 // shelves.list
-exports.findShelvesForUser = function(user, callback) {
-  oauth.get(
-    goodreadsUrl + '/shelf/list.xml?key=' + config.goodreads.key + '&user_id=' + user.goodreads_user_id,
-    user.user_oauth_token,
-    user.user_oauth_token_secret,
-    function(error, response, body) {
-      if (error) callback(error);
-      xml2js(response, function (err, result) {
-        var shelvesXml = result.GoodreadsResponse.shelves[0].user_shelf;
-        var shelves = [];
-        shelvesXml.forEach(function (shelf) {
-          shelves.push(shelf.name[0]);
+exports.findShelvesForUser = function(user) {
+  var goodreadsResponse = new Promise(function (resolve, reject) {
+    oauth.get(
+        goodreadsUrl + '/shelf/list.xml?key=' + config.goodreads.key + '&user_id=' + user.goodreads_user_id,
+        user.user_oauth_token,
+        user.user_oauth_token_secret,
+        function (error, response, body) {
+          if (error) reject(error);
+          resolve(parseXml(response));
         });
-        callback(err, shelves);
+  });
+  return goodreadsResponse.then(function (parsedXml) {
+      var shelvesXml = parsedXml.GoodreadsResponse.shelves[0].user_shelf;
+      var shelves = [];
+      shelvesXml.forEach(function (shelf) {
+        shelves.push(shelf.name[0]);
       });
-    });
+      return shelves;
+  });
 };
 
 // reviews.list
-exports.findReviewsForUser = function(user, params, callback) {
+exports.findReviewsForUser = function(user, params) {
   var url = goodreadsUrl + '/review/list/' + user.goodreads_user_id + '.xml?v=2&key=' + config.goodreads.key;
   url += '&sort=date_updated';
 
@@ -58,83 +66,58 @@ exports.findReviewsForUser = function(user, params, callback) {
     url+= '&per_page=' + params.per_page; 
   }
 
-  oauth.get(
-    url,
-    user.user_oauth_token,
-    user.user_oauth_token_secret,
-    function(error, response, body) {
-      if (error) callback(error);
-      xml2js(response, function (err, result) {
-        var reviewsXml = result.GoodreadsResponse.reviews[0].review;
-        var reviews = mapper.mapReviews(reviewsXml);
-        callback(err, reviews);
-      });
+  var goodreadsResponse = new Promise(function (resolve, reject) {
+    oauth.get(
+        url,
+        user.user_oauth_token,
+        user.user_oauth_token_secret,
+        function (error, response, body) {
+          if (error) reject(error);
+          resolve(parseXml(response));
+        });
+  });
+  return goodreadsResponse.then(function (parsedXml) {
+    var reviewsXml = parsedXml.GoodreadsResponse.reviews[0].review;
+    return mapper.mapReviews(reviewsXml);
+  });
+};
+
+var getPublicGoodreadsData = function (url) {
+  return request.getAsync(url).then(function (response) {
+    return parseXml(response.body).then(function (parsedXml) {
+      var keys = Object.keys(parsedXml.GoodreadsResponse);
+      return parsedXml.GoodreadsResponse[keys[1]][0];
     });
+  });
 };
 
 // book.show
-exports.findBook = function(bookId, callback) {
-  request.get(goodreadsUrl + '/book/show/' + bookId + '.xml?key=' + config.goodreads.key, 
-    function(error, response, body) {
-      if (error) callback(error);
-      xml2js(body, function (err, result) {
-        callback(err, result);
-      });
-    });
+exports.findBook = function(bookId) {
+  return getPublicGoodreadsData(goodreadsUrl + '/book/show/' + bookId + '.xml?key=' + config.goodreads.key);
 };
 
 // series.show
-exports.findSeries = function(seriesId, callback) {
-  request.get(goodreadsUrl + '/series/' + seriesId + '?format=xml&key=' + config.goodreads.key, 
-    function(error, response, body) {
-      if (error) callback(error);
-      xml2js(body, function (err, result) {
-        callback(err, result);
-      });
-    });
+exports.findSeries = function(seriesId) {
+  return getPublicGoodreadsData(goodreadsUrl + '/series/' + seriesId + '?format=xml&key=' + config.goodreads.key);
 };
 
 // author.show
-exports.findAuthor = function(authorId, callback) {
-  request.get(goodreadsUrl + '/author/show/' + authorId + '?format=xml&key=' + config.goodreads.key, 
-    function(error, response, body) {
-      if (error) callback(error);
-      xml2js(body, function (err, result) {
-        callback(err, result);
-      });
-    });
+exports.findAuthor = function(authorId) {
+  return getPublicGoodreadsData(goodreadsUrl + '/author/show/' + authorId + '?format=xml&key=' + config.goodreads.key);
 };
 
 // review.show
-exports.findReview = function(reviewId, callback) {
-  request.get(goodreadsUrl + '/review/show.xml?id=' + reviewId + '&key=' + config.goodreads.key, 
-    function(error, response, body) {
-      if (error) callback(error);
-      xml2js(body, function (err, result) {
-        callback(err, result);
-      });
-    });
+exports.findReview = function(reviewId) {
+  return getPublicGoodreadsData(goodreadsUrl + '/review/show.xml?id=' + reviewId + '&key=' + config.goodreads.key);
 };
 
 // user_status.show
-exports.findUserStatus = function(userStatusId, callback) {
-  request.get(goodreadsUrl + '/user_status/show/' + userStatusId + '?format=xml&key=' + config.goodreads.key, 
-    function(error, response, body) {
-      if (error) callback(error);
-      xml2js(body, function (err, result) {
-        callback(err, result);
-      });
-    });
+exports.findUserStatus = function(userStatusId) {
+  return getPublicGoodreadsData(goodreadsUrl + '/user_status/show/' + userStatusId + '?format=xml&key=' + config.goodreads.key);
 };
 
 // read_status.show
-exports.findReview = function(readStatusId, callback) {
-  request.get(goodreadsUrl + '/read_statuses/' + readStatusId + '?format=xml&key=' + config.goodreads.key, 
-    function(error, response, body) {
-      if (error) callback(error);
-      xml2js(body, function (err, result) {
-        callback(err, result);
-      });
-    });
+exports.findReadStatus = function(readStatusId) {
+  return getPublicGoodreadsData(goodreadsUrl + '/read_statuses/' + readStatusId + '?format=xml&key=' + config.goodreads.key);
 };
 

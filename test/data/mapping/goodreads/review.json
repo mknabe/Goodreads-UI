@@ -1,0 +1,378 @@
+{
+  "id": [
+    "1456897430"
+  ],
+  "user": [
+    {
+      "id": [
+        "5964172"
+      ],
+      "name": [
+        "Maria"
+      ],
+      "display_name": [
+        "Maria"
+      ],
+      "location": [
+        "Dallas, TX"
+      ],
+      "link": [
+        "https://www.goodreads.com/user/show/5964172-maria"
+      ],
+      "image_url": [
+        "https://d2arxad8u2l0g7.cloudfront.net/users/1453590169p3/5964172.jpg"
+      ],
+      "small_image_url": [
+        "https://d2arxad8u2l0g7.cloudfront.net/users/1453590169p2/5964172.jpg"
+      ]
+    }
+  ],
+  "book": [
+    {
+      "id": [
+        {
+          "_": "21853621",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "isbn": [
+        "0312577222"
+      ],
+      "isbn13": [
+        "9780312577223"
+      ],
+      "text_reviews_count": [
+        {
+          "_": "23214",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "title": [
+        "The Nightingale"
+      ],
+      "image_url": [
+        "https://d2arxad8u2l0g7.cloudfront.net/books/1451446316m/21853621.jpg"
+      ],
+      "small_image_url": [
+        "https://d2arxad8u2l0g7.cloudfront.net/books/1451446316s/21853621.jpg"
+      ],
+      "large_image_url": [
+        ""
+      ],
+      "link": [
+        "https://www.goodreads.com/book/show/21853621-the-nightingale"
+      ],
+      "num_pages": [
+        "440"
+      ],
+      "format": [
+        "Hardcover"
+      ],
+      "edition_information": [
+        "1st Edition"
+      ],
+      "publisher": [
+        "St. Martin's Press"
+      ],
+      "publication_day": [
+        "3"
+      ],
+      "publication_year": [
+        "2015"
+      ],
+      "publication_month": [
+        "2"
+      ],
+      "average_rating": [
+        "4.53"
+      ],
+      "ratings_count": [
+        "215511"
+      ],
+      "description": [
+        "Despite their differences, sisters Viann and Isabelle have always been close. Younger, bolder Isabelle lives in Paris while Viann is content with life in the French countryside with her husband Antoine and their daughter. But when the Second World War strikes, Antoine is sent off to fight and Viann finds herself isolated so Isabelle is sent by their father to help her. <br><br>As the war progresses, the sisters' relationship and strength is tested. With life changing in unbelievably horrific ways, Viann and Isabelle will find themselves facing frightening situations and responding in ways they never thought possible as bravery and resistance take different forms in each of their actions."
+      ],
+      "authors": [
+        {
+          "author": [
+            {
+              "id": [
+                "54493"
+              ],
+              "name": [
+                "Kristin Hannah"
+              ],
+              "role": [
+                ""
+              ],
+              "image_url": [
+                {
+                  "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg\n",
+                  "$": {
+                    "nophoto": "false"
+                  }
+                }
+              ],
+              "small_image_url": [
+                {
+                  "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg\n",
+                  "$": {
+                    "nophoto": "false"
+                  }
+                }
+              ],
+              "link": [
+                "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+              ],
+              "average_rating": [
+                "4.17"
+              ],
+              "ratings_count": [
+                "729871"
+              ],
+              "text_reviews_count": [
+                "72039"
+              ]
+            }
+          ]
+        }
+      ],
+      "published": [
+        "2015"
+      ]
+    }
+  ],
+  "user_statuses": [
+    {
+      "user_status": [
+        {
+          "id": [
+            {
+              "_": "106706396",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "page": [
+            {
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "chapter": [
+            {
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "comments_count": [
+            "0"
+          ],
+          "created_at": [
+            {
+              "_": "Thu Sep 01 08:07:34 -0700 2016",
+              "$": {
+                "type": "datetime"
+              }
+            }
+          ],
+          "updated_at": [
+            {
+              "_": "Thu Sep 01 08:07:34 -0700 2016",
+              "$": {
+                "type": "datetime"
+              }
+            }
+          ],
+          "last_comment_at": [
+            {
+              "$": {
+                "type": "datetime"
+              }
+            }
+          ],
+          "ratings_count": [
+            {
+              "_": "0",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "percent": [
+            {
+              "_": "40",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "work_id": [
+            {
+              "_": "41125521",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "note_uri": [
+            ""
+          ],
+          "note_updated_at": [
+            {
+              "$": {
+                "type": "datetime"
+              }
+            }
+          ],
+          "body": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "read_statuses": [
+    {
+      "read_status": [
+        {
+          "id": [
+            {
+              "_": "1491594079",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "old_status": [
+            "to-read"
+          ],
+          "status": [
+            "currently-reading"
+          ],
+          "updated_at": [
+            {
+              "_": "Tue Aug 30 21:03:23 -0700 2016",
+              "$": {
+                "type": "datetime"
+              }
+            }
+          ],
+          "ratings_count": [
+            "0"
+          ],
+          "comments_count": [
+            "0"
+          ]
+        },
+        {
+          "id": [
+            {
+              "_": "1091498695",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "old_status": [
+            ""
+          ],
+          "status": [
+            "to-read"
+          ],
+          "updated_at": [
+            {
+              "_": "Tue Dec 01 08:05:09 -0800 2015",
+              "$": {
+                "type": "datetime"
+              }
+            }
+          ],
+          "ratings_count": [
+            "0"
+          ],
+          "comments_count": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "rating": [
+    "0"
+  ],
+  "votes": [
+    "0"
+  ],
+  "spoiler_flag": [
+    "false"
+  ],
+  "spoilers_state": [
+    "none"
+  ],
+  "shelves": [
+    {
+      "shelf": [
+        {
+          "$": {
+            "name": "from-goodreads-list",
+            "exclusive": "false",
+            "review_shelf_id": "1178167250",
+            "sortable": "false"
+          }
+        },
+        {
+          "$": {
+            "name": "currently-reading",
+            "exclusive": "true",
+            "review_shelf_id": "1409631017",
+            "sortable": "false"
+          }
+        }
+      ]
+    }
+  ],
+  "recommended_for": [
+    ""
+  ],
+  "recommended_by": [
+    ""
+  ],
+  "started_at": [
+    "Tue Aug 30 21:03:22 -0700 2016"
+  ],
+  "read_at": [
+    ""
+  ],
+  "date_added": [
+    "Tue Dec 01 08:05:09 -0800 2015"
+  ],
+  "date_updated": [
+    "Tue Aug 30 21:03:22 -0700 2016"
+  ],
+  "read_count": [
+    ""
+  ],
+  "body": [
+    "\n  "
+  ],
+  "comments_count": [
+    "0"
+  ],
+  "url": [
+    "https://www.goodreads.com/review/show/1456897430"
+  ],
+  "link": [
+    "https://www.goodreads.com/review/show/1456897430"
+  ],
+  "owned": [
+    "0"
+  ]
+}

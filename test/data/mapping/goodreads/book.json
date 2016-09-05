@@ -1,0 +1,1950 @@
+{
+  "id": [
+    "228665"
+  ],
+  "title": [
+    "The Eye of the World (Wheel of Time, #1)"
+  ],
+  "isbn": [
+    "0812511816"
+  ],
+  "isbn13": [
+    "9780812511819"
+  ],
+  "asin": [
+    ""
+  ],
+  "kindle_asin": [
+    "B002U3CCYM"
+  ],
+  "marketplace_id": [
+    "ATVPDKIKX0DER"
+  ],
+  "country_code": [
+    "US"
+  ],
+  "image_url": [
+    "https://d2arxad8u2l0g7.cloudfront.net/books/1337818095m/228665.jpg"
+  ],
+  "small_image_url": [
+    "https://d2arxad8u2l0g7.cloudfront.net/books/1337818095s/228665.jpg"
+  ],
+  "publication_year": [
+    "1990"
+  ],
+  "publication_month": [
+    "11"
+  ],
+  "publication_day": [
+    "15"
+  ],
+  "publisher": [
+    "Tor Books"
+  ],
+  "language_code": [
+    "en-US"
+  ],
+  "is_ebook": [
+    "false"
+  ],
+  "description": [
+    "The Wheel of Time turns and Ages come and go, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth returns again. In the Third Age, an Age of Prophecy, the World and Time themselves hang in the balance. What was, what will be, and what is, may yet fall under the Shadow."
+  ],
+  "work": [
+    {
+      "id": [
+        {
+          "_": "2008238",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "books_count": [
+        {
+          "_": "90",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "best_book_id": [
+        {
+          "_": "228665",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "reviews_count": [
+        {
+          "_": "350346",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "ratings_sum": [
+        {
+          "_": "1000066",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "ratings_count": [
+        {
+          "_": "239996",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "text_reviews_count": [
+        {
+          "_": "7271",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "original_publication_year": [
+        {
+          "_": "1990",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "original_publication_month": [
+        {
+          "_": "1",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "original_publication_day": [
+        {
+          "_": "15",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "original_title": [
+        "The Eye of the World"
+      ],
+      "original_language_id": [
+        {
+          "$": {
+            "type": "integer",
+            "nil": "true"
+          }
+        }
+      ],
+      "media_type": [
+        "book"
+      ],
+      "rating_dist": [
+        "5:111756|4:77789|3:34739|2:10201|1:5511|total:239996"
+      ],
+      "desc_user_id": [
+        {
+          "_": "17971779",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ],
+      "default_chaptering_book_id": [
+        {
+          "$": {
+            "type": "integer",
+            "nil": "true"
+          }
+        }
+      ],
+      "default_description_language_code": [
+        {
+          "$": {
+            "nil": "true"
+          }
+        }
+      ]
+    }
+  ],
+  "average_rating": [
+    "4.17"
+  ],
+  "num_pages": [
+    "814"
+  ],
+  "format": [
+    "Mass Market Paperback"
+  ],
+  "edition_information": [
+    ""
+  ],
+  "ratings_count": [
+    "229651"
+  ],
+  "text_reviews_count": [
+    "6406"
+  ],
+  "url": [
+    "https://www.goodreads.com/book/show/228665.The_Eye_of_the_World"
+  ],
+  "link": [
+    "https://www.goodreads.com/book/show/228665.The_Eye_of_the_World"
+  ],
+  "authors": [
+    {
+      "author": [
+        {
+          "id": [
+            "6252"
+          ],
+          "name": [
+            "Robert Jordan"
+          ],
+          "role": [
+            ""
+          ],
+          "image_url": [
+            {
+              "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1175475715p5/6252.jpg\n",
+              "$": {
+                "nophoto": "false"
+              }
+            }
+          ],
+          "small_image_url": [
+            {
+              "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1175475715p2/6252.jpg\n",
+              "$": {
+                "nophoto": "false"
+              }
+            }
+          ],
+          "link": [
+            "https://www.goodreads.com/author/show/6252.Robert_Jordan"
+          ],
+          "average_rating": [
+            "4.15"
+          ],
+          "ratings_count": [
+            "1596286"
+          ],
+          "text_reviews_count": [
+            "35158"
+          ]
+        }
+      ]
+    }
+  ],
+  "reviews_widget": [
+    "\n      \n        <style>\n  #goodreads-widget {\n    font-family: georgia, serif;\n    padding: 18px 0;\n    width:565px;\n  }\n  #goodreads-widget h1 {\n    font-weight:normal;\n    font-size: 16px;\n    border-bottom: 1px solid #BBB596;\n    margin-bottom: 0;\n  }\n  #goodreads-widget a {\n    text-decoration: none;\n    color:#660;\n  }\n  iframe{\n    background-color: #fff;\n  }\n  #goodreads-widget a:hover { text-decoration: underline; }\n  #goodreads-widget a:active {\n    color:#660;\n  }\n  #gr_footer {\n    width: 100%;\n    border-top: 1px solid #BBB596;\n    text-align: right;\n  }\n  #goodreads-widget .gr_branding{\n    color: #382110;\n    font-size: 11px;\n    text-decoration: none;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  }\n</style>\n<div id=\"goodreads-widget\">\n  <div id=\"gr_header\"><h1><a href=\"https://www.goodreads.com/book/show/228665.The_Eye_of_the_World\">The Eye of the World Reviews</a></h1></div>\n  <iframe id=\"the_iframe\" src=\"https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0812511816&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000\" width=\"565\" height=\"400\" frameborder=\"0\"></iframe>\n  <div id=\"gr_footer\">\n    <a class=\"gr_branding\" target=\"_blank\" href=\"https://www.goodreads.com/book/show/228665.The_Eye_of_the_World?utm_medium=api&amp;utm_source=reviews_widget\">Reviews from Goodreads.com</a>\n  </div>\n</div>\n\n      \n    "
+  ],
+  "popular_shelves": [
+    {
+      "shelf": [
+        {
+          "$": {
+            "name": "to-read",
+            "count": "85108"
+          }
+        },
+        {
+          "$": {
+            "name": "fantasy",
+            "count": "11893"
+          }
+        },
+        {
+          "$": {
+            "name": "currently-reading",
+            "count": "5996"
+          }
+        },
+        {
+          "$": {
+            "name": "favorites",
+            "count": "1853"
+          }
+        },
+        {
+          "$": {
+            "name": "fiction",
+            "count": "1343"
+          }
+        },
+        {
+          "$": {
+            "name": "epic-fantasy",
+            "count": "799"
+          }
+        },
+        {
+          "$": {
+            "name": "wheel-of-time",
+            "count": "794"
+          }
+        },
+        {
+          "$": {
+            "name": "owned",
+            "count": "700"
+          }
+        },
+        {
+          "$": {
+            "name": "series",
+            "count": "475"
+          }
+        },
+        {
+          "$": {
+            "name": "sci-fi-fantasy",
+            "count": "462"
+          }
+        },
+        {
+          "$": {
+            "name": "high-fantasy",
+            "count": "405"
+          }
+        },
+        {
+          "$": {
+            "name": "books-i-own",
+            "count": "372"
+          }
+        },
+        {
+          "$": {
+            "name": "robert-jordan",
+            "count": "281"
+          }
+        },
+        {
+          "$": {
+            "name": "fantasy-sci-fi",
+            "count": "273"
+          }
+        },
+        {
+          "$": {
+            "name": "adventure",
+            "count": "254"
+          }
+        },
+        {
+          "$": {
+            "name": "default",
+            "count": "233"
+          }
+        },
+        {
+          "$": {
+            "name": "epic",
+            "count": "209"
+          }
+        },
+        {
+          "$": {
+            "name": "magic",
+            "count": "205"
+          }
+        },
+        {
+          "$": {
+            "name": "audiobook",
+            "count": "201"
+          }
+        },
+        {
+          "$": {
+            "name": "kindle",
+            "count": "177"
+          }
+        },
+        {
+          "$": {
+            "name": "scifi-fantasy",
+            "count": "171"
+          }
+        },
+        {
+          "$": {
+            "name": "adult",
+            "count": "159"
+          }
+        },
+        {
+          "$": {
+            "name": "the-wheel-of-time",
+            "count": "150"
+          }
+        },
+        {
+          "$": {
+            "name": "owned-books",
+            "count": "135"
+          }
+        },
+        {
+          "$": {
+            "name": "library",
+            "count": "126"
+          }
+        },
+        {
+          "$": {
+            "name": "sci-fi",
+            "count": "126"
+          }
+        },
+        {
+          "$": {
+            "name": "favourites",
+            "count": "125"
+          }
+        },
+        {
+          "$": {
+            "name": "science-fiction",
+            "count": "122"
+          }
+        },
+        {
+          "$": {
+            "name": "audiobooks",
+            "count": "122"
+          }
+        },
+        {
+          "$": {
+            "name": "re-read",
+            "count": "113"
+          }
+        },
+        {
+          "$": {
+            "name": "science-fiction-fantasy",
+            "count": "112"
+          }
+        },
+        {
+          "$": {
+            "name": "my-books",
+            "count": "104"
+          }
+        },
+        {
+          "$": {
+            "name": "to-buy",
+            "count": "103"
+          }
+        },
+        {
+          "$": {
+            "name": "ebook",
+            "count": "95"
+          }
+        },
+        {
+          "$": {
+            "name": "fantasy-scifi",
+            "count": "93"
+          }
+        },
+        {
+          "$": {
+            "name": "audio",
+            "count": "91"
+          }
+        },
+        {
+          "$": {
+            "name": "audible",
+            "count": "89"
+          }
+        },
+        {
+          "$": {
+            "name": "abandoned",
+            "count": "88"
+          }
+        },
+        {
+          "$": {
+            "name": "novels",
+            "count": "84"
+          }
+        },
+        {
+          "$": {
+            "name": "my-library",
+            "count": "80"
+          }
+        },
+        {
+          "$": {
+            "name": "to-read-fantasy",
+            "count": "72"
+          }
+        },
+        {
+          "$": {
+            "name": "ebooks",
+            "count": "71"
+          }
+        },
+        {
+          "$": {
+            "name": "fantasy-fiction",
+            "count": "71"
+          }
+        },
+        {
+          "$": {
+            "name": "wot",
+            "count": "71"
+          }
+        },
+        {
+          "$": {
+            "name": "did-not-finish",
+            "count": "62"
+          }
+        },
+        {
+          "$": {
+            "name": "books",
+            "count": "61"
+          }
+        },
+        {
+          "$": {
+            "name": "fantasy-epic",
+            "count": "57"
+          }
+        },
+        {
+          "$": {
+            "name": "sword-and-laser",
+            "count": "57"
+          }
+        },
+        {
+          "$": {
+            "name": "fantasy-series",
+            "count": "53"
+          }
+        },
+        {
+          "$": {
+            "name": "young-adult",
+            "count": "53"
+          }
+        },
+        {
+          "$": {
+            "name": "fantasy-to-read",
+            "count": "53"
+          }
+        },
+        {
+          "$": {
+            "name": "sci-fi-and-fantasy",
+            "count": "53"
+          }
+        },
+        {
+          "$": {
+            "name": "fiction-fantasy",
+            "count": "53"
+          }
+        },
+        {
+          "$": {
+            "name": "audio-book",
+            "count": "51"
+          }
+        },
+        {
+          "$": {
+            "name": "maybe",
+            "count": "50"
+          }
+        },
+        {
+          "$": {
+            "name": "reread",
+            "count": "49"
+          }
+        },
+        {
+          "$": {
+            "name": "wish-list",
+            "count": "49"
+          }
+        },
+        {
+          "$": {
+            "name": "i-own",
+            "count": "47"
+          }
+        },
+        {
+          "$": {
+            "name": "read-in-2013",
+            "count": "46"
+          }
+        },
+        {
+          "$": {
+            "name": "classics",
+            "count": "46"
+          }
+        },
+        {
+          "$": {
+            "name": "audio-books",
+            "count": "46"
+          }
+        },
+        {
+          "$": {
+            "name": "novel",
+            "count": "46"
+          }
+        },
+        {
+          "$": {
+            "name": "fantasy-science-fiction",
+            "count": "45"
+          }
+        },
+        {
+          "$": {
+            "name": "own-it",
+            "count": "45"
+          }
+        },
+        {
+          "$": {
+            "name": "jordan",
+            "count": "45"
+          }
+        },
+        {
+          "$": {
+            "name": "adult-fiction",
+            "count": "44"
+          }
+        },
+        {
+          "$": {
+            "name": "adult-fantasy",
+            "count": "44"
+          }
+        },
+        {
+          "$": {
+            "name": "first-in-series",
+            "count": "44"
+          }
+        },
+        {
+          "$": {
+            "name": "sff",
+            "count": "43"
+          }
+        },
+        {
+          "$": {
+            "name": "read-in-2015",
+            "count": "42"
+          }
+        },
+        {
+          "$": {
+            "name": "read-in-2014",
+            "count": "42"
+          }
+        },
+        {
+          "$": {
+            "name": "unfinished",
+            "count": "42"
+          }
+        },
+        {
+          "$": {
+            "name": "read-fantasy",
+            "count": "41"
+          }
+        },
+        {
+          "$": {
+            "name": "recommended",
+            "count": "40"
+          }
+        },
+        {
+          "$": {
+            "name": "all-time-favorites",
+            "count": "40"
+          }
+        },
+        {
+          "$": {
+            "name": "read-in-2012",
+            "count": "39"
+          }
+        },
+        {
+          "$": {
+            "name": "paperback",
+            "count": "38"
+          }
+        },
+        {
+          "$": {
+            "name": "on-hold",
+            "count": "38"
+          }
+        },
+        {
+          "$": {
+            "name": "reviewed",
+            "count": "38"
+          }
+        },
+        {
+          "$": {
+            "name": "dnf",
+            "count": "37"
+          }
+        },
+        {
+          "$": {
+            "name": "sf-fantasy",
+            "count": "37"
+          }
+        },
+        {
+          "$": {
+            "name": "speculative-fiction",
+            "count": "36"
+          }
+        },
+        {
+          "$": {
+            "name": "wheel-of-time-series",
+            "count": "35"
+          }
+        },
+        {
+          "$": {
+            "name": "english",
+            "count": "35"
+          }
+        },
+        {
+          "$": {
+            "name": "favorite-books",
+            "count": "35"
+          }
+        },
+        {
+          "$": {
+            "name": "jordan-robert",
+            "count": "33"
+          }
+        },
+        {
+          "$": {
+            "name": "have",
+            "count": "33"
+          }
+        },
+        {
+          "$": {
+            "name": "fantasia",
+            "count": "32"
+          }
+        },
+        {
+          "$": {
+            "name": "to-read-fiction",
+            "count": "31"
+          }
+        },
+        {
+          "$": {
+            "name": "5-stars",
+            "count": "31"
+          }
+        },
+        {
+          "$": {
+            "name": "american",
+            "count": "31"
+          }
+        },
+        {
+          "$": {
+            "name": "e-books",
+            "count": "31"
+          }
+        },
+        {
+          "$": {
+            "name": "re-reading",
+            "count": "31"
+          }
+        },
+        {
+          "$": {
+            "name": "fantasy-and-sci-fi",
+            "count": "31"
+          }
+        },
+        {
+          "$": {
+            "name": "genre-fantasy",
+            "count": "30"
+          }
+        },
+        {
+          "$": {
+            "name": "nook",
+            "count": "30"
+          }
+        },
+        {
+          "$": {
+            "name": "borrowed",
+            "count": "30"
+          }
+        },
+        {
+          "$": {
+            "name": "didn-t-finish",
+            "count": "30"
+          }
+        },
+        {
+          "$": {
+            "name": "read-in-2016",
+            "count": "29"
+          }
+        },
+        {
+          "$": {
+            "name": "fantasy-read",
+            "count": "29"
+          }
+        }
+      ]
+    }
+  ],
+  "book_links": [
+    {
+      "book_link": [
+        {
+          "id": [
+            "8"
+          ],
+          "name": [
+            "Libraries"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/8"
+          ]
+        }
+      ]
+    }
+  ],
+  "buy_links": [
+    {
+      "buy_link": [
+        {
+          "id": [
+            "1"
+          ],
+          "name": [
+            "Amazon"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/1"
+          ]
+        },
+        {
+          "id": [
+            "10"
+          ],
+          "name": [
+            "Audible"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/10"
+          ]
+        },
+        {
+          "id": [
+            "3"
+          ],
+          "name": [
+            "Barnes & Noble"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/3"
+          ]
+        },
+        {
+          "id": [
+            "1027"
+          ],
+          "name": [
+            "Kobo"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/1027"
+          ]
+        },
+        {
+          "id": [
+            "2102"
+          ],
+          "name": [
+            "Apple iBooks"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/2102"
+          ]
+        },
+        {
+          "id": [
+            "8036"
+          ],
+          "name": [
+            "Google Play"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/8036"
+          ]
+        },
+        {
+          "id": [
+            "4"
+          ],
+          "name": [
+            "Abebooks"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/4"
+          ]
+        },
+        {
+          "id": [
+            "882"
+          ],
+          "name": [
+            "Book Depository"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/882"
+          ]
+        },
+        {
+          "id": [
+            "9"
+          ],
+          "name": [
+            "Indigo"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/9"
+          ]
+        },
+        {
+          "id": [
+            "2"
+          ],
+          "name": [
+            "Half.com"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/2"
+          ]
+        },
+        {
+          "id": [
+            "5"
+          ],
+          "name": [
+            "Alibris"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/5"
+          ]
+        },
+        {
+          "id": [
+            "107"
+          ],
+          "name": [
+            "Better World Books"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/107"
+          ]
+        },
+        {
+          "id": [
+            "7"
+          ],
+          "name": [
+            "IndieBound"
+          ],
+          "link": [
+            "https://www.goodreads.com/book_link/follow/7"
+          ]
+        }
+      ]
+    }
+  ],
+  "series_works": [
+    {
+      "series_work": [
+        {
+          "id": [
+            "160203"
+          ],
+          "user_position": [
+            "1"
+          ],
+          "series": [
+            {
+              "id": [
+                "41526"
+              ],
+              "title": [
+                "\n\n    The Wheel of Time\n\n"
+              ],
+              "description": [
+                "\n\n    Written by Robert Jordan and completed posthumously by Brandon Sanderson, The Wheel of Time is one of the greatest epics of fantasy and a #1 internationally bestselling series. Taking place both in our past and our future, the saga tells the story of a man destined to face the Evil One and save the world—or destroy it in the process.\r\n    \r\n    The Wheel of Time turns and Ages come and pass. What was, what will be, and what is, may yet fall under the Shadow.\r\n    \r\n    The series is also known as:\r\n    * Ajan pyörä (Finnish)\r\n    * Ajaratas\r\n    * A Roda do Tempo [Portuguese]\r\n    * Das Rad der Zeit\r\n    * Het Rad des Tijds\r\n    * Kolo času\r\n    * Koło Czasu\r\n    * La Roue du Temps\r\n    * La Rueda del Tiempo\r\n    * La Ruota del Tempo\r\n    * Roata Timpului\r\n    * Sagan om Drakens återkomst\r\n    * Točak vremena\r\n    * Zaman Çarkı\r\n    * Колелото на Времето\r\n    * 时光之轮\r\n    \r\n    Alternate numberings for this series:\r\n    * <a href=\"http://www.goodreads.com/series/118810\">Ajan pyörä</a>\r\n    * <a href=\"http://www.goodreads.com/series/45703-das-rad-der-zeit\">Das Rad der Zeit</a>\r\n    * <a href=\"http://www.goodreads.com/series/47228-la-roue-du-temps\">La Roue du Temps</a>\r\n    * <a href=\"http://www.goodreads.com/series/100463-sagan-om-drakens-terkomst\">Sagan om Drakens återkomst</a>\r\n    \r\n    A series of <a href=\"http://www.goodreads.com/series/89334-the-wheel-of-time---graphic-novels\">Graphic Novels</a> has been published, containing the first 4 books and the \"New Spring\" novella.\n\n"
+              ],
+              "note": [
+                "\n\n\n"
+              ],
+              "series_works_count": [
+                "26"
+              ],
+              "primary_work_count": [
+                "14"
+              ],
+              "numbered": [
+                "true"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "similar_books": [
+    {
+      "book": [
+        {
+          "id": [
+            "795034"
+          ],
+          "title": [
+            "To Green Angel Tower, Part 1 (Memory, Sorrow, and Thorn, #3; Part 1)"
+          ],
+          "title_without_series": [
+            "To Green Angel Tower, Part 1"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/795034.To_Green_Angel_Tower_Part_1"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1309992858s/795034.jpg"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1309992858m/795034.jpg"
+          ],
+          "num_pages": [
+            "815"
+          ],
+          "work": [
+            {
+              "id": [
+                "19075137"
+              ]
+            }
+          ],
+          "isbn": [
+            "0886775981"
+          ],
+          "isbn13": [
+            "9780886775988"
+          ],
+          "average_rating": [
+            "4.18"
+          ],
+          "ratings_count": [
+            "12650"
+          ],
+          "publication_year": [
+            "1994"
+          ],
+          "publication_month": [
+            "4"
+          ],
+          "publication_day": [
+            "1"
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "6587"
+                  ],
+                  "name": [
+                    "Tad Williams"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/6587.Tad_Williams"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "7235533"
+          ],
+          "title": [
+            "The Way of Kings (The Stormlight Archive, #1)"
+          ],
+          "title_without_series": [
+            "The Way of Kings"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/7235533-the-way-of-kings"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1448127430s/7235533.jpg"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1448127430m/7235533.jpg"
+          ],
+          "num_pages": [
+            "1007"
+          ],
+          "work": [
+            {
+              "id": [
+                "8134945"
+              ]
+            }
+          ],
+          "isbn": [
+            "0765326353"
+          ],
+          "isbn13": [
+            "9780765326355"
+          ],
+          "average_rating": [
+            "4.63"
+          ],
+          "ratings_count": [
+            "120154"
+          ],
+          "publication_year": [
+            "2010"
+          ],
+          "publication_month": [
+            "8"
+          ],
+          "publication_day": [
+            "31"
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "38550"
+                  ],
+                  "name": [
+                    "Brandon Sanderson"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/38550.Brandon_Sanderson"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "6342483"
+          ],
+          "title": [
+            "Avempartha (The Riyria Revelations, part #2)"
+          ],
+          "title_without_series": [
+            "Avempartha"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/6342483-avempartha"
+          ],
+          "small_image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          ],
+          "image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          ],
+          "num_pages": [
+            "331"
+          ],
+          "work": [
+            {
+              "id": [
+                "5104916"
+              ]
+            }
+          ],
+          "isbn": [
+            "0979621119"
+          ],
+          "isbn13": [
+            "9780979621116"
+          ],
+          "average_rating": [
+            "4.30"
+          ],
+          "ratings_count": [
+            "5424"
+          ],
+          "publication_year": [
+            ""
+          ],
+          "publication_month": [
+            ""
+          ],
+          "publication_day": [
+            ""
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "2063919"
+                  ],
+                  "name": [
+                    "Michael J. Sullivan"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/2063919.Michael_J_Sullivan"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "28484"
+          ],
+          "title": [
+            "Into the Labyrinth (The Death Gate Cycle, #6)"
+          ],
+          "title_without_series": [
+            "Into the Labyrinth"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/28484.Into_the_Labyrinth"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1327837279s/28484.jpg"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1327837279m/28484.jpg"
+          ],
+          "num_pages": [
+            "441"
+          ],
+          "work": [
+            {
+              "id": [
+                "1251507"
+              ]
+            }
+          ],
+          "isbn": [
+            "0553567713"
+          ],
+          "isbn13": [
+            "9780553567717"
+          ],
+          "average_rating": [
+            "4.08"
+          ],
+          "ratings_count": [
+            "15324"
+          ],
+          "publication_year": [
+            "1994"
+          ],
+          "publication_month": [
+            "7"
+          ],
+          "publication_day": [
+            "1"
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "869"
+                  ],
+                  "name": [
+                    "Margaret Weis"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/869.Margaret_Weis"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "4703427"
+          ],
+          "title": [
+            "Dust of Dreams (The Malazan Book of the Fallen, #9)"
+          ],
+          "title_without_series": [
+            "Dust of Dreams"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/4703427-dust-of-dreams"
+          ],
+          "small_image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          ],
+          "image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          ],
+          "num_pages": [
+            "816"
+          ],
+          "work": [
+            {
+              "id": [
+                "4767755"
+              ]
+            }
+          ],
+          "isbn": [
+            "0765316552"
+          ],
+          "isbn13": [
+            "9780765316554"
+          ],
+          "average_rating": [
+            "4.32"
+          ],
+          "ratings_count": [
+            "12049"
+          ],
+          "publication_year": [
+            "2009"
+          ],
+          "publication_month": [
+            "8"
+          ],
+          "publication_day": [
+            "18"
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "31232"
+                  ],
+                  "name": [
+                    "Steven Erikson"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/31232.Steven_Erikson"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "144109"
+          ],
+          "title": [
+            "Wizardborn (Runelords, #3)"
+          ],
+          "title_without_series": [
+            "Wizardborn"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/144109.Wizardborn"
+          ],
+          "small_image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          ],
+          "image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          ],
+          "num_pages": [
+            "502"
+          ],
+          "work": [
+            {
+              "id": [
+                "1270521"
+              ]
+            }
+          ],
+          "isbn": [
+            "0812570707"
+          ],
+          "isbn13": [
+            "9780812570700"
+          ],
+          "average_rating": [
+            "3.82"
+          ],
+          "ratings_count": [
+            "7482"
+          ],
+          "publication_year": [
+            "2002"
+          ],
+          "publication_month": [
+            "9"
+          ],
+          "publication_day": [
+            "16"
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "83308"
+                  ],
+                  "name": [
+                    "David Farland"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/83308.David_Farland"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "110694"
+          ],
+          "title": [
+            "The Seeress of Kell (The Malloreon, #5)"
+          ],
+          "title_without_series": [
+            "The Seeress of Kell"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/110694.The_Seeress_of_Kell"
+          ],
+          "small_image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          ],
+          "image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          ],
+          "num_pages": [
+            "452"
+          ],
+          "work": [
+            {
+              "id": [
+                "418854"
+              ]
+            }
+          ],
+          "isbn": [
+            "0552148067"
+          ],
+          "isbn13": [
+            "9780552148061"
+          ],
+          "average_rating": [
+            "4.12"
+          ],
+          "ratings_count": [
+            "29980"
+          ],
+          "publication_year": [
+            "1992"
+          ],
+          "publication_month": [
+            "8"
+          ],
+          "publication_day": [
+            "13"
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "8732"
+                  ],
+                  "name": [
+                    "David Eddings"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/8732.David_Eddings"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "50027"
+          ],
+          "title": [
+            "Homeland (Forgotten Realms: The Dark Elf Trilogy, #1; Legend of Drizzt, #1)"
+          ],
+          "title_without_series": [
+            "Homeland"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/50027.Homeland"
+          ],
+          "small_image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          ],
+          "image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          ],
+          "num_pages": [
+            "343"
+          ],
+          "work": [
+            {
+              "id": [
+                "2186426"
+              ]
+            }
+          ],
+          "isbn": [
+            "0786939532"
+          ],
+          "isbn13": [
+            "9780786939534"
+          ],
+          "average_rating": [
+            "4.27"
+          ],
+          "ratings_count": [
+            "43033"
+          ],
+          "publication_year": [
+            "2005"
+          ],
+          "publication_month": [
+            "12"
+          ],
+          "publication_day": [
+            "1"
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "1023510"
+                  ],
+                  "name": [
+                    "R.A. Salvatore"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/1023510.R_A_Salvatore"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "45109"
+          ],
+          "title": [
+            "Golden Fool (Tawny Man, #2)"
+          ],
+          "title_without_series": [
+            "Golden Fool"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/45109.Golden_Fool"
+          ],
+          "small_image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          ],
+          "image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          ],
+          "num_pages": [
+            "709"
+          ],
+          "work": [
+            {
+              "id": [
+                "2960727"
+              ]
+            }
+          ],
+          "isbn": [
+            "0553582453"
+          ],
+          "isbn13": [
+            "9780553582451"
+          ],
+          "average_rating": [
+            "4.30"
+          ],
+          "ratings_count": [
+            "39075"
+          ],
+          "publication_year": [
+            "2003"
+          ],
+          "publication_month": [
+            "12"
+          ],
+          "publication_day": [
+            ""
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "25307"
+                  ],
+                  "name": [
+                    "Robin Hobb"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/25307.Robin_Hobb"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "185292"
+          ],
+          "title": [
+            "The Ruins of Ambrai (Exiles, #1)"
+          ],
+          "title_without_series": [
+            "The Ruins of Ambrai"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/185292.The_Ruins_of_Ambrai"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1327903388s/185292.jpg"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1327903388m/185292.jpg"
+          ],
+          "num_pages": [
+            "928"
+          ],
+          "work": [
+            {
+              "id": [
+                "1298639"
+              ]
+            }
+          ],
+          "isbn": [
+            "0330344196"
+          ],
+          "isbn13": [
+            "9780330344197"
+          ],
+          "average_rating": [
+            "4.04"
+          ],
+          "ratings_count": [
+            "7313"
+          ],
+          "publication_year": [
+            "1997"
+          ],
+          "publication_month": [
+            "3"
+          ],
+          "publication_day": [
+            "7"
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "8661"
+                  ],
+                  "name": [
+                    "Melanie Rawn"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/8661.Melanie_Rawn"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "13813"
+          ],
+          "title": [
+            "A Darkness At Sethanon (The Riftwar Saga, #4)"
+          ],
+          "title_without_series": [
+            "A Darkness At Sethanon"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/13813.A_Darkness_At_Sethanon"
+          ],
+          "small_image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          ],
+          "image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          ],
+          "num_pages": [
+            "527"
+          ],
+          "work": [
+            {
+              "id": [
+                "15940"
+              ]
+            }
+          ],
+          "isbn": [
+            "0586066888"
+          ],
+          "isbn13": [
+            "9780586066881"
+          ],
+          "average_rating": [
+            "4.17"
+          ],
+          "ratings_count": [
+            "41927"
+          ],
+          "publication_year": [
+            "1987"
+          ],
+          "publication_month": [
+            ""
+          ],
+          "publication_day": [
+            ""
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "8588"
+                  ],
+                  "name": [
+                    "Raymond E. Feist"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/8588.Raymond_E_Feist"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "43889"
+          ],
+          "title": [
+            "Wizard's First Rule (Sword of Truth, #1)"
+          ],
+          "title_without_series": [
+            "Wizard's First Rule"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/43889.Wizard_s_First_Rule"
+          ],
+          "small_image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          ],
+          "image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          ],
+          "num_pages": [
+            "836"
+          ],
+          "work": [
+            {
+              "id": [
+                "1323305"
+              ]
+            }
+          ],
+          "isbn": [
+            "0765346524"
+          ],
+          "isbn13": [
+            "9780765346520"
+          ],
+          "average_rating": [
+            "4.13"
+          ],
+          "ratings_count": [
+            "159056"
+          ],
+          "publication_year": [
+            "2003"
+          ],
+          "publication_month": [
+            "4"
+          ],
+          "publication_day": [
+            "14"
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "3441"
+                  ],
+                  "name": [
+                    "Terry Goodkind"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/3441.Terry_Goodkind"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "15567"
+          ],
+          "title": [
+            "The Wishsong of Shannara (The Original Shannara Trilogy, #3)"
+          ],
+          "title_without_series": [
+            "The Wishsong of Shannara"
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/15567.The_Wishsong_of_Shannara"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1328325115s/15567.jpg"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1328325115m/15567.jpg"
+          ],
+          "num_pages": [
+            "512"
+          ],
+          "work": [
+            {
+              "id": [
+                "1352033"
+              ]
+            }
+          ],
+          "isbn": [
+            "1857231325"
+          ],
+          "isbn13": [
+            "9781857231328"
+          ],
+          "average_rating": [
+            "3.97"
+          ],
+          "ratings_count": [
+            "31897"
+          ],
+          "publication_year": [
+            "1999"
+          ],
+          "publication_month": [
+            ""
+          ],
+          "publication_day": [
+            ""
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "9629"
+                  ],
+                  "name": [
+                    "Terry Brooks"
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/9629.Terry_Brooks"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

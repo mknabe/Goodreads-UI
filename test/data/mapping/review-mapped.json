@@ -1,0 +1,21 @@
+{
+  "goodreads": {
+    "id": "1456897430",
+    "url": "https://www.goodreads.com/review/show/1456897430"
+  },
+  "rating": 0,
+  "dateAdded": "Tue Dec 01 2015 10:05:09 GMT-0600 (CST)",
+  "readings": [
+    {
+      "format": "UNKNOWN",
+      "dateStarted": "Tue Aug 30 2016 23:03:22 GMT-0500 (CDT)"
+    }
+  ],
+  "book": {
+    "goodreadsId": "21853621"
+  },
+  "shelves": [
+    "from-goodreads-list",
+    "currently-reading"
+  ]
+}

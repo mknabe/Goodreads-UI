@@ -1,4 +1,6 @@
 config.json
 node_modules/
 .idea/
+*.iml
 coverage
+npm-debug.log

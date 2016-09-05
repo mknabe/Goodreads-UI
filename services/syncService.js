@@ -9,9 +9,11 @@ exports.syncUserWithGoodreads = function () {
 };
 
 exports.syncShelves = function (user, callback) {
+  goodreads.findShelvesForUser(user, callback);
+  goodreads.findReviewsForUser(user, { shelf: shelf }, shelfCallback);
+
   async.waterfall([
     function(callback) {
-      goodreads.findShelvesForUser(user, callback);
     },
     function(shelves, callback) {
       var shelvesMap = {};
@@ -19,7 +21,7 @@ exports.syncShelves = function (user, callback) {
         shelvesMap[shelf] = shelf;
       });
       async.mapValues(shelvesMap, function (shelf, key, shelfCallback) {
-        goodreads.findReviewsForUser(user, { shelf: shelf }, shelfCallback);  
+        goodreads.findReviewsForUser(user, { shelf: shelf }, shelfCallback);
       }, callback);
     },
     function (reviewsByShelf, callback) {
@@ -62,7 +64,7 @@ var syncBook = function (goodreadsBook) {
         } else {
           return bookDao.saveBook(goodreadsBook);
         }
-      }).error(function (err) {
+      }).catch(function (err) {
         console.log(err);
       });
 };

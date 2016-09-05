@@ -1,11 +1,23 @@
 var mongoose = require('mongoose');
-var Reading = require('./readingSchema');
+
+// TODO: user status updates
+
+var readingSchema = mongoose.Schema({
+  dateStarted: Date,
+  dateFinished: Date,
+  format: {
+    type: String,
+    enum : ['LISTENED', 'READ', 'BOTH', 'UNKNOWN']
+  }
+});
 
 var reviewSchema = mongoose.Schema({
-  bookId: {
-    type: mongoose.Schema.ObjectId,
-    ref: 'Book',
-    required: true
+  book: {
+    goodreadsId: {
+      type: String,
+      ref: 'Book.goodreads.id',
+      required: true
+    }
   },
   username: {
     type: String,
@@ -19,9 +31,9 @@ var reviewSchema = mongoose.Schema({
   rating: Number,
   body: String,
   shelves: [String],
-  readings: [Reading],
+  readings: [readingSchema],
   owned: Boolean,
   dateAdded: Date
 });
-var Review = mongoose.model('Review', reviewSchema);
+var Review = mongoose.model('Series', reviewSchema);
 module.exports = Review;

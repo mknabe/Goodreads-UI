@@ -1,12 +1,19 @@
 var mongoose = require('mongoose');
 var Author = require('./author');
+var Series = require('./series');
 
 var bookSchema = mongoose.Schema({
   title: String,
-  sortByTitle: String,
-  authors: [Author],
+  authors: [{
+    type: String,
+    ref: 'Author.goodreads.id'
+  }],
   description: String,
   series: {
+    goodreadsId: {
+      type: String,
+      ref: 'Series.goodreads.id'
+    },
     title: String,
     position: Number
   },
@@ -24,16 +31,21 @@ var bookSchema = mongoose.Schema({
     count: Number,
     average: Number,
     sum: Number,
-    dist: String //<rating_dist>5:4140|4:2855|3:856|2:200|1:121|total:8172</rating_dist>
+    dist: String // 5:4140|4:2855|3:856|2:200|1:121|total:8172
   },
   review: {
     total: Number,
     text: Number
   },
   publication: Date,
+  firstPublication: Date,
   isbn: String,
   isbn13: String,
-  numPages: Number
+  numPages: Number,
+  popularShelves: [{
+    name: String,
+    count: Number
+  }]
 });
 var Book = mongoose.model('Book', bookSchema);
 module.exports = Book;

@@ -1,0 +1,1797 @@
+{
+  "id": [
+    "41526"
+  ],
+  "title": [
+    "\n\n    The Wheel of Time\n\n"
+  ],
+  "description": [
+    "\n\n    Written by Robert Jordan and completed posthumously by Brandon Sanderson, The Wheel of Time is one of the greatest epics of fantasy and a #1 internationally bestselling series. Taking place both in our past and our future, the saga tells the story of a man destined to face the Evil One and save the world—or destroy it in the process.\r\n    \r\n    The Wheel of Time turns and Ages come and pass. What was, what will be, and what is, may yet fall under the Shadow.\r\n    \r\n    The series is also known as:\r\n    * Ajan pyörä (Finnish)\r\n    * Ajaratas\r\n    * A Roda do Tempo [Portuguese]\r\n    * Das Rad der Zeit\r\n    * Het Rad des Tijds\r\n    * Kolo času\r\n    * Koło Czasu\r\n    * La Roue du Temps\r\n    * La Rueda del Tiempo\r\n    * La Ruota del Tempo\r\n    * Roata Timpului\r\n    * Sagan om Drakens återkomst\r\n    * Točak vremena\r\n    * Zaman Çarkı\r\n    * Колелото на Времето\r\n    * 时光之轮\r\n    \r\n    Alternate numberings for this series:\r\n    * <a href=\"http://www.goodreads.com/series/118810\">Ajan pyörä</a>\r\n    * <a href=\"http://www.goodreads.com/series/45703-das-rad-der-zeit\">Das Rad der Zeit</a>\r\n    * <a href=\"http://www.goodreads.com/series/47228-la-roue-du-temps\">La Roue du Temps</a>\r\n    * <a href=\"http://www.goodreads.com/series/100463-sagan-om-drakens-terkomst\">Sagan om Drakens återkomst</a>\r\n    \r\n    A series of <a href=\"http://www.goodreads.com/series/89334-the-wheel-of-time---graphic-novels\">Graphic Novels</a> has been published, containing the first 4 books and the \"New Spring\" novella.\n\n"
+  ],
+  "note": [
+    "\n\n\n"
+  ],
+  "series_works_count": [
+    "26"
+  ],
+  "primary_work_count": [
+    "14"
+  ],
+  "numbered": [
+    "true"
+  ],
+  "series_works": [
+    {
+      "series_work": [
+        {
+          "id": [
+            "575375"
+          ],
+          "user_position": [
+            "0"
+          ],
+          "work": [
+            {
+              "id": [
+                "987752"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "187065"
+                  ],
+                  "title": [
+                    "New Spring (Wheel of Time, #0)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1328959234m/187065.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "59"
+              ],
+              "original_publication_day": [
+                "6"
+              ],
+              "original_publication_month": [
+                "1"
+              ],
+              "original_publication_year": [
+                "2004"
+              ],
+              "original_title": [
+                "New Spring"
+              ],
+              "ratings_count": [
+                "47405"
+              ],
+              "ratings_sum": [
+                "188667"
+              ],
+              "reviews_count": [
+                "74069"
+              ],
+              "text_reviews_count": [
+                "1044"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "558591"
+          ],
+          "user_position": [
+            "0.1"
+          ],
+          "work": [
+            {
+              "id": [
+                "13546943"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "8675071"
+                  ],
+                  "title": [
+                    "The Strike at Shayol Ghul (Wheel of Time, #0.1)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1354202226m/8675071.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "4"
+              ],
+              "original_publication_day": [
+                "1"
+              ],
+              "original_publication_month": [
+                "1"
+              ],
+              "original_publication_year": [
+                "1996"
+              ],
+              "original_title": [
+                ""
+              ],
+              "ratings_count": [
+                "3927"
+              ],
+              "ratings_sum": [
+                "15258"
+              ],
+              "reviews_count": [
+                "10467"
+              ],
+              "text_reviews_count": [
+                "41"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "160203"
+          ],
+          "user_position": [
+            "1"
+          ],
+          "work": [
+            {
+              "id": [
+                "2008238"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "228665"
+                  ],
+                  "title": [
+                    "The Eye of the World (Wheel of Time, #1)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1337818095m/228665.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "90"
+              ],
+              "original_publication_day": [
+                "15"
+              ],
+              "original_publication_month": [
+                "1"
+              ],
+              "original_publication_year": [
+                "1990"
+              ],
+              "original_title": [
+                "The Eye of the World"
+              ],
+              "ratings_count": [
+                "239996"
+              ],
+              "ratings_sum": [
+                "1000066"
+              ],
+              "reviews_count": [
+                "350346"
+              ],
+              "text_reviews_count": [
+                "7271"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "157901"
+          ],
+          "user_position": [
+            "2"
+          ],
+          "work": [
+            {
+              "id": [
+                "1574475"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "233649"
+                  ],
+                  "title": [
+                    "The Great Hunt (Wheel of Time, #2)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                  ]
+                }
+              ],
+              "books_count": [
+                "69"
+              ],
+              "original_publication_day": [
+                ""
+              ],
+              "original_publication_month": [
+                ""
+              ],
+              "original_publication_year": [
+                "1990"
+              ],
+              "original_title": [
+                "The Great Hunt"
+              ],
+              "ratings_count": [
+                "159340"
+              ],
+              "ratings_sum": [
+                "668173"
+              ],
+              "reviews_count": [
+                "197477"
+              ],
+              "text_reviews_count": [
+                "2671"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "152556"
+          ],
+          "user_position": [
+            "3"
+          ],
+          "work": [
+            {
+              "id": [
+                "791061"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "34897"
+                  ],
+                  "title": [
+                    "The Dragon Reborn (Wheel of Time, #3)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                  ]
+                }
+              ],
+              "books_count": [
+                "64"
+              ],
+              "original_publication_day": [
+                ""
+              ],
+              "original_publication_month": [
+                ""
+              ],
+              "original_publication_year": [
+                "1991"
+              ],
+              "original_title": [
+                "The Dragon Reborn "
+              ],
+              "ratings_count": [
+                "152995"
+              ],
+              "ratings_sum": [
+                "645511"
+              ],
+              "reviews_count": [
+                "188150"
+              ],
+              "text_reviews_count": [
+                "2171"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "170698"
+          ],
+          "user_position": [
+            "4"
+          ],
+          "work": [
+            {
+              "id": [
+                "6591373"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "9539"
+                  ],
+                  "title": [
+                    "The Shadow Rising (Wheel of Time, #4)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1470841890m/9539.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "63"
+              ],
+              "original_publication_day": [
+                "15"
+              ],
+              "original_publication_month": [
+                "9"
+              ],
+              "original_publication_year": [
+                "1992"
+              ],
+              "original_title": [
+                "The Shadow Rising "
+              ],
+              "ratings_count": [
+                "120043"
+              ],
+              "ratings_sum": [
+                "504415"
+              ],
+              "reviews_count": [
+                "152240"
+              ],
+              "text_reviews_count": [
+                "1858"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "150737"
+          ],
+          "user_position": [
+            "5"
+          ],
+          "work": [
+            {
+              "id": [
+                "588034"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "13895"
+                  ],
+                  "title": [
+                    "The Fires of Heaven (Wheel of Time, #5)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1327866286m/13895.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "55"
+              ],
+              "original_publication_day": [
+                ""
+              ],
+              "original_publication_month": [
+                ""
+              ],
+              "original_publication_year": [
+                "1993"
+              ],
+              "original_title": [
+                "The Fires of Heaven"
+              ],
+              "ratings_count": [
+                "94420"
+              ],
+              "ratings_sum": [
+                "388524"
+              ],
+              "reviews_count": [
+                "125791"
+              ],
+              "text_reviews_count": [
+                "1621"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "152895"
+          ],
+          "user_position": [
+            "6"
+          ],
+          "work": [
+            {
+              "id": [
+                "827903"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "35231"
+                  ],
+                  "title": [
+                    "Lord of Chaos (Wheel of Time, #6)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                  ]
+                }
+              ],
+              "books_count": [
+                "51"
+              ],
+              "original_publication_day": [
+                "15"
+              ],
+              "original_publication_month": [
+                "10"
+              ],
+              "original_publication_year": [
+                "1994"
+              ],
+              "original_title": [
+                ""
+              ],
+              "ratings_count": [
+                "89104"
+              ],
+              "ratings_sum": [
+                "364180"
+              ],
+              "reviews_count": [
+                "118289"
+              ],
+              "text_reviews_count": [
+                "1567"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "152558"
+          ],
+          "user_position": [
+            "7"
+          ],
+          "work": [
+            {
+              "id": [
+                "791214"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "13890"
+                  ],
+                  "title": [
+                    "A Crown of Swords (Wheel of Time, #7)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1358542379m/13890.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "53"
+              ],
+              "original_publication_day": [
+                "15"
+              ],
+              "original_publication_month": [
+                "5"
+              ],
+              "original_publication_year": [
+                "1996"
+              ],
+              "original_title": [
+                "A Crown of Swords"
+              ],
+              "ratings_count": [
+                "82703"
+              ],
+              "ratings_sum": [
+                "328999"
+              ],
+              "reviews_count": [
+                "111246"
+              ],
+              "text_reviews_count": [
+                "1297"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "154825"
+          ],
+          "user_position": [
+            "8"
+          ],
+          "work": [
+            {
+              "id": [
+                "1098593"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "140974"
+                  ],
+                  "title": [
+                    "The Path of Daggers (Wheel of Time, #8)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1390508613m/140974.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "54"
+              ],
+              "original_publication_day": [
+                "20"
+              ],
+              "original_publication_month": [
+                "10"
+              ],
+              "original_publication_year": [
+                "1998"
+              ],
+              "original_title": [
+                "The Path of Daggers"
+              ],
+              "ratings_count": [
+                "74778"
+              ],
+              "ratings_sum": [
+                "290983"
+              ],
+              "reviews_count": [
+                "103370"
+              ],
+              "text_reviews_count": [
+                "1145"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "152559"
+          ],
+          "user_position": [
+            "9"
+          ],
+          "work": [
+            {
+              "id": [
+                "791225"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "13891"
+                  ],
+                  "title": [
+                    "Winter's Heart (Wheel of Time, #9)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                  ]
+                }
+              ],
+              "books_count": [
+                "11"
+              ],
+              "original_publication_day": [
+                "7"
+              ],
+              "original_publication_month": [
+                "11"
+              ],
+              "original_publication_year": [
+                "2000"
+              ],
+              "original_title": [
+                ""
+              ],
+              "ratings_count": [
+                "69524"
+              ],
+              "ratings_sum": [
+                "271043"
+              ],
+              "reviews_count": [
+                "97163"
+              ],
+              "text_reviews_count": [
+                "1157"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "558592"
+          ],
+          "user_position": [
+            "9.5"
+          ],
+          "work": [
+            {
+              "id": [
+                "5033905"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "4968078"
+                  ],
+                  "title": [
+                    "Glimmers: Prologue to Crossroads of Twilight (Wheel of Time, #9.5)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                  ]
+                }
+              ],
+              "books_count": [
+                "4"
+              ],
+              "original_publication_day": [
+                "1"
+              ],
+              "original_publication_month": [
+                "7"
+              ],
+              "original_publication_year": [
+                "2002"
+              ],
+              "original_title": [
+                "Glimmers: Prologue to Crossroads of Twilight (Wheel of Time, part of #10)"
+              ],
+              "ratings_count": [
+                "876"
+              ],
+              "ratings_sum": [
+                "3624"
+              ],
+              "reviews_count": [
+                "3245"
+              ],
+              "text_reviews_count": [
+                "5"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "146787"
+          ],
+          "user_position": [
+            "10"
+          ],
+          "work": [
+            {
+              "id": [
+                "195579"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "113435"
+                  ],
+                  "title": [
+                    "Crossroads of Twilight (Wheel of Time, #10)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1408325146m/113435.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "48"
+              ],
+              "original_publication_day": [
+                ""
+              ],
+              "original_publication_month": [
+                ""
+              ],
+              "original_publication_year": [
+                "2003"
+              ],
+              "original_title": [
+                "Crossroads of Twilight"
+              ],
+              "ratings_count": [
+                "62265"
+              ],
+              "ratings_sum": [
+                "237323"
+              ],
+              "reviews_count": [
+                "90246"
+              ],
+              "text_reviews_count": [
+                "1370"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "154035"
+          ],
+          "user_position": [
+            "11"
+          ],
+          "work": [
+            {
+              "id": [
+                "987750"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "13888"
+                  ],
+                  "title": [
+                    "Knife of Dreams (Wheel of Time, #11)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1397856387m/13888.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "47"
+              ],
+              "original_publication_day": [
+                ""
+              ],
+              "original_publication_month": [
+                ""
+              ],
+              "original_publication_year": [
+                "2005"
+              ],
+              "original_title": [
+                "Knife of Dreams"
+              ],
+              "ratings_count": [
+                "71231"
+              ],
+              "ratings_sum": [
+                "292773"
+              ],
+              "reviews_count": [
+                "100142"
+              ],
+              "text_reviews_count": [
+                "1225"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "178823"
+          ],
+          "user_position": [
+            "12"
+          ],
+          "work": [
+            {
+              "id": [
+                "1920889"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "1166599"
+                  ],
+                  "title": [
+                    "The Gathering Storm (Wheel of Time, #12)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                  ]
+                }
+              ],
+              "books_count": [
+                "35"
+              ],
+              "original_publication_day": [
+                ""
+              ],
+              "original_publication_month": [
+                ""
+              ],
+              "original_publication_year": [
+                "2009"
+              ],
+              "original_title": [
+                "The Gathering Storm"
+              ],
+              "ratings_count": [
+                "91522"
+              ],
+              "ratings_sum": [
+                "396379"
+              ],
+              "reviews_count": [
+                "127484"
+              ],
+              "text_reviews_count": [
+                "2372"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "178824"
+          ],
+          "user_position": [
+            "13"
+          ],
+          "work": [
+            {
+              "id": [
+                "7338128"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "8253920"
+                  ],
+                  "title": [
+                    "Towers of Midnight (Wheel of Time, #13)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1358109459m/8253920.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "34"
+              ],
+              "original_publication_day": [
+                "2"
+              ],
+              "original_publication_month": [
+                "11"
+              ],
+              "original_publication_year": [
+                "2009"
+              ],
+              "original_title": [
+                "Towers of Midnight"
+              ],
+              "ratings_count": [
+                "89101"
+              ],
+              "ratings_sum": [
+                "392774"
+              ],
+              "reviews_count": [
+                "119856"
+              ],
+              "text_reviews_count": [
+                "2173"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "743082"
+          ],
+          "user_position": [
+            "13.5"
+          ],
+          "work": [
+            {
+              "id": [
+                "21771164"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "16006282"
+                  ],
+                  "title": [
+                    "By Grace and Banners Fallen: Prologue to A Memory of Light (Wheel of Time, #13.5)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1348160225m/16006282.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "4"
+              ],
+              "original_publication_day": [
+                "1"
+              ],
+              "original_publication_month": [
+                "1"
+              ],
+              "original_publication_year": [
+                "2012"
+              ],
+              "original_title": [
+                ""
+              ],
+              "ratings_count": [
+                "2410"
+              ],
+              "ratings_sum": [
+                "10853"
+              ],
+              "reviews_count": [
+                "4180"
+              ],
+              "text_reviews_count": [
+                "38"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "178825"
+          ],
+          "user_position": [
+            "14"
+          ],
+          "work": [
+            {
+              "id": [
+                "10558806"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "7743175"
+                  ],
+                  "title": [
+                    "A Memory of Light (Wheel of Time, #14)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1336055749m/7743175.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "29"
+              ],
+              "original_publication_day": [
+                "8"
+              ],
+              "original_publication_month": [
+                "1"
+              ],
+              "original_publication_year": [
+                "2012"
+              ],
+              "original_title": [
+                "A Memory of Light"
+              ],
+              "ratings_count": [
+                "63473"
+              ],
+              "ratings_sum": [
+                "285837"
+              ],
+              "reviews_count": [
+                "91545"
+              ],
+              "text_reviews_count": [
+                "4551"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "641654"
+          ],
+          "user_position": [
+            "omnibus"
+          ],
+          "work": [
+            {
+              "id": [
+                "41850099"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "22429484"
+                  ],
+                  "title": [
+                    "The Complete Wheel of Time"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1401985232m/22429484.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "2"
+              ],
+              "original_publication_day": [
+                "1"
+              ],
+              "original_publication_month": [
+                "5"
+              ],
+              "original_publication_year": [
+                "2014"
+              ],
+              "original_title": [
+                "The Complete Wheel of Time"
+              ],
+              "ratings_count": [
+                "1178"
+              ],
+              "ratings_sum": [
+                "5422"
+              ],
+              "reviews_count": [
+                "2565"
+              ],
+              "text_reviews_count": [
+                "55"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "183594"
+          ],
+          "user_position": [
+            "reference"
+          ],
+          "work": [
+            {
+              "id": [
+                "180835"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "242793"
+                  ],
+                  "title": [
+                    "The World of Robert Jordan's The Wheel of Time"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                  ]
+                }
+              ],
+              "books_count": [
+                "13"
+              ],
+              "original_publication_day": [
+                ""
+              ],
+              "original_publication_month": [
+                ""
+              ],
+              "original_publication_year": [
+                "1997"
+              ],
+              "original_title": [
+                "The World of Robert Jordan's The Wheel of Time"
+              ],
+              "ratings_count": [
+                "6243"
+              ],
+              "ratings_sum": [
+                "23848"
+              ],
+              "reviews_count": [
+                "9217"
+              ],
+              "text_reviews_count": [
+                "126"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "833768"
+          ],
+          "user_position": [
+            "1 pt. 1/2"
+          ],
+          "work": [
+            {
+              "id": [
+                "6785716"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "187049"
+                  ],
+                  "title": [
+                    "From the Two Rivers: The Eye of the World, Part 1 (Wheel of time, #1-1)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                  ]
+                }
+              ],
+              "books_count": [
+                "37"
+              ],
+              "original_publication_day": [
+                ""
+              ],
+              "original_publication_month": [
+                ""
+              ],
+              "original_publication_year": [
+                "1990"
+              ],
+              "original_title": [
+                "Eye of the World (The Wheel of Time, #1-1)"
+              ],
+              "ratings_count": [
+                "14018"
+              ],
+              "ratings_sum": [
+                "59718"
+              ],
+              "reviews_count": [
+                "20714"
+              ],
+              "text_reviews_count": [
+                "96"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "833769"
+          ],
+          "user_position": [
+            "1 pt. 2/2"
+          ],
+          "work": [
+            {
+              "id": [
+                "6785719"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "13889"
+                  ],
+                  "title": [
+                    "To the Blight (The Eye of the World, #2)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1333213862m/13889.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "29"
+              ],
+              "original_publication_day": [
+                ""
+              ],
+              "original_publication_month": [
+                ""
+              ],
+              "original_publication_year": [
+                "1990"
+              ],
+              "original_title": [
+                "To The Blight: The Eye of the World, part 2"
+              ],
+              "ratings_count": [
+                "1299"
+              ],
+              "ratings_sum": [
+                "5482"
+              ],
+              "reviews_count": [
+                "2392"
+              ],
+              "text_reviews_count": [
+                "34"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "687939"
+          ],
+          "user_position": [
+            "2 pt. 1/2"
+          ],
+          "work": [
+            {
+              "id": [
+                "42812582"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "17706494"
+                  ],
+                  "title": [
+                    "The Great Hunt Volume 1 - Perburuan Sangkakala"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1364787330m/17706494.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "1"
+              ],
+              "original_publication_day": [
+                ""
+              ],
+              "original_publication_month": [
+                ""
+              ],
+              "original_publication_year": [
+                ""
+              ],
+              "original_title": [
+                "The Great Hunt"
+              ],
+              "ratings_count": [
+                "38"
+              ],
+              "ratings_sum": [
+                "171"
+              ],
+              "reviews_count": [
+                "189"
+              ],
+              "text_reviews_count": [
+                "5"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "687940"
+          ],
+          "user_position": [
+            "2 pt. 2/2"
+          ],
+          "work": [
+            {
+              "id": [
+                "42812583"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "17706497"
+                  ],
+                  "title": [
+                    "The Great Hunt Volume 2 - Sang Peniup Sangkakala"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1364787496m/17706497.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "1"
+              ],
+              "original_publication_day": [
+                ""
+              ],
+              "original_publication_month": [
+                ""
+              ],
+              "original_publication_year": [
+                ""
+              ],
+              "original_title": [
+                "The Great Hunt"
+              ],
+              "ratings_count": [
+                "29"
+              ],
+              "ratings_sum": [
+                "125"
+              ],
+              "reviews_count": [
+                "160"
+              ],
+              "text_reviews_count": [
+                "3"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "804377"
+          ],
+          "user_position": [
+            "1-8"
+          ],
+          "work": [
+            {
+              "id": [
+                "1098573"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "1111600"
+                  ],
+                  "title": [
+                    "The Wheel of Time: Boxed Set  (Wheel of Time, #1-8)"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+                  ]
+                }
+              ],
+              "books_count": [
+                "2"
+              ],
+              "original_publication_day": [
+                "15"
+              ],
+              "original_publication_month": [
+                "11"
+              ],
+              "original_publication_year": [
+                "1990"
+              ],
+              "original_title": [
+                "The Wheel of Time: Boxed Set  (Wheel of Time, #1-8)"
+              ],
+              "ratings_count": [
+                "8833"
+              ],
+              "ratings_sum": [
+                "38574"
+              ],
+              "reviews_count": [
+                "10975"
+              ],
+              "text_reviews_count": [
+                "122"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            "638681"
+          ],
+          "user_position": [
+            "reference"
+          ],
+          "work": [
+            {
+              "id": [
+                "41801093"
+              ],
+              "best_book": [
+                {
+                  "id": [
+                    "23847904"
+                  ],
+                  "title": [
+                    "The Wheel of Time Companion: The People, Places and History of the Bestselling Series"
+                  ],
+                  "author": [
+                    {
+                      "id": [
+                        "6252"
+                      ],
+                      "name": [
+                        "Robert Jordan"
+                      ]
+                    }
+                  ],
+                  "image_url": [
+                    "https://d2arxad8u2l0g7.cloudfront.net/books/1420647322m/23847904.jpg"
+                  ]
+                }
+              ],
+              "books_count": [
+                "7"
+              ],
+              "original_publication_day": [
+                "3"
+              ],
+              "original_publication_month": [
+                "11"
+              ],
+              "original_publication_year": [
+                "2015"
+              ],
+              "original_title": [
+                ""
+              ],
+              "ratings_count": [
+                "248"
+              ],
+              "ratings_sum": [
+                "988"
+              ],
+              "reviews_count": [
+                "1644"
+              ],
+              "text_reviews_count": [
+                "37"
+              ],
+              "average_rating": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

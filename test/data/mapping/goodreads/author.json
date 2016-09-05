@@ -1,0 +1,1248 @@
+{
+  "id": [
+    "54493"
+  ],
+  "name": [
+    "Kristin Hannah"
+  ],
+  "link": [
+    "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+  ],
+  "fans_count": [
+    {
+      "_": "39969",
+      "$": {
+        "type": "integer"
+      }
+    }
+  ],
+  "author_followers_count": [
+    {
+      "_": "39969",
+      "$": {
+        "type": "integer"
+      }
+    }
+  ],
+  "large_image_url": [
+    "https://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p7/54493.jpg"
+  ],
+  "image_url": [
+    "https://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg"
+  ],
+  "small_image_url": [
+    "https://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg"
+  ],
+  "about": [
+    "Kristin Hannah is the New York Times bestselling author of twenty-one novels, including the blockbuster Firefly Lane and #1 bestsellers Night Road and Home Front. She is a former lawyer turned writer and is the mother of one son. She lives in the Pacific Northwest and Hawaii with her husband."
+  ],
+  "influences": [
+    ""
+  ],
+  "works_count": [
+    "63"
+  ],
+  "gender": [
+    "female"
+  ],
+  "hometown": [
+    "Southern California"
+  ],
+  "born_at": [
+    ""
+  ],
+  "died_at": [
+    ""
+  ],
+  "goodreads_author": [
+    "true"
+  ],
+  "user": [
+    {
+      "id": [
+        {
+          "_": "1538220",
+          "$": {
+            "type": "integer"
+          }
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "book": [
+        {
+          "id": [
+            {
+              "_": "21853621",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "isbn": [
+            "0312577222"
+          ],
+          "isbn13": [
+            "9780312577223"
+          ],
+          "text_reviews_count": [
+            {
+              "_": "23205",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "title": [
+            "The Nightingale"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1451446316m/21853621.jpg"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1451446316s/21853621.jpg"
+          ],
+          "large_image_url": [
+            ""
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/21853621-the-nightingale"
+          ],
+          "num_pages": [
+            "440"
+          ],
+          "format": [
+            "Hardcover"
+          ],
+          "edition_information": [
+            "1st Edition"
+          ],
+          "publisher": [
+            "St. Martin's Press"
+          ],
+          "publication_day": [
+            "3"
+          ],
+          "publication_year": [
+            "2015"
+          ],
+          "publication_month": [
+            "2"
+          ],
+          "average_rating": [
+            "4.53"
+          ],
+          "ratings_count": [
+            "215429"
+          ],
+          "description": [
+            "Despite their differences, sisters Viann and Isabelle have always been close. Younger, bolder Isabelle lives in Paris while Viann is content with life in the French countryside with her husband Antoine and their daughter. But when the Second World War strikes, Antoine is sent off to fight and Viann finds herself isolated so Isabelle is sent by their father to help her. <br><br>As the war progresses, the sisters' relationship and strength is tested. With life changing in unbelievably horrific ways, Viann and Isabelle will find themselves facing frightening situations and responding in ways they never thought possible as bravery and resistance take different forms in each of their actions."
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "54493"
+                  ],
+                  "name": [
+                    "Kristin Hannah"
+                  ],
+                  "role": [
+                    ""
+                  ],
+                  "image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "small_image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+                  ],
+                  "average_rating": [
+                    "4.17"
+                  ],
+                  "ratings_count": [
+                    "729754"
+                  ],
+                  "text_reviews_count": [
+                    "72029"
+                  ]
+                }
+              ]
+            }
+          ],
+          "published": [
+            "2015"
+          ]
+        },
+        {
+          "id": [
+            {
+              "_": "1472878",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "isbn": [
+            "0312364083"
+          ],
+          "isbn13": [
+            "9780312364083"
+          ],
+          "text_reviews_count": [
+            {
+              "_": "9478",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "title": [
+            "Firefly Lane (Firefly Lane, #1)"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1362435448m/1472878.jpg"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1362435448s/1472878.jpg"
+          ],
+          "large_image_url": [
+            ""
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/1472878.Firefly_Lane"
+          ],
+          "num_pages": [
+            "479"
+          ],
+          "format": [
+            "Hardcover"
+          ],
+          "edition_information": [
+            ""
+          ],
+          "publisher": [
+            "St. Martin's Press"
+          ],
+          "publication_day": [
+            "5"
+          ],
+          "publication_year": [
+            "2008"
+          ],
+          "publication_month": [
+            "2"
+          ],
+          "average_rating": [
+            "4.03"
+          ],
+          "ratings_count": [
+            "117718"
+          ],
+          "description": [
+            "From the <em>New York Times</em> bestselling author of <em>On Mystic Lake</em> comes a powerful novel of love, loss, and the magic of friendship. . . .<br><br>In the turbulent summer of 1974, Kate Mularkey has accepted her place at the bottom of the eighth-grade social food chain. Then, to her amazement, the “coolest girl in the world” moves in across the street and wants to be her friend. Tully Hart seems to have it all---beauty, brains, ambition. On the surface they are as opposite as two people can be: Kate, doomed to be forever uncool, with a loving family who mortifies her at every turn. Tully, steeped in glamour and mystery, but with a secret that is destroying her. They make a pact to be best friends forever; by summer’s end they’ve become <em>TullyandKate.</em> Inseparable.<br><br>So begins Kristin Hannah’s magnificent new novel. Spanning more than three decades and playing out across the ever-changing face of the Pacific Northwest, <em>Firefly Lane</em> is the poignant, powerful story of two women and the friendship that becomes the bulkhead of their lives.<br><br>From the beginning, Tully is desperate to prove her worth to the world. Abandoned by her mother at an early age, she longs to be loved unconditionally. In the glittering, big-hair era of the eighties, she looks to men to fill the void in her soul. But in the buttoned-down nineties, it is television news that captivates her. She will follow her own blind ambition to New York and around the globe, finding fame and success . . . and loneliness. <br><br>Kate knows early on that her life will be nothing special. Throughout college, she pretends to be driven by a need for success, but all she really wants is to fall in love and have children and live an ordinary life. In her own quiet way, Kate is as driven as Tully. What she doesn’t know is how being a wife and mother will change her . . . how she’ll lose sight of who she once was, and what she once wanted. And how much she’ll envy her famous best friend. . . .<br><br>For thirty years, Tully and Kate buoy each other through life, weathering the storms of friendship---jealousy, anger, hurt, resentment. They think they’ve survived it all until a single act of betrayal tears them apart . . . and puts their courage and friendship to the ultimate test.<br><br><em>Firefly Lane</em> is for anyone who ever drank Boone’s Farm apple wine while listening to Abba or Fleetwood Mac. More than a coming-of-age novel, it’s the story of a generation of women who were both blessed and cursed by choices. It’s about promises and secrets and betrayals. And ultimately, about the one person who really, truly knows you---and knows what has the power to hurt you . . . and heal you. <em>Firefly Lane </em>is a story you’ll never forget . . . one you’ll want to pass on to your best friend."
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "54493"
+                  ],
+                  "name": [
+                    "Kristin Hannah"
+                  ],
+                  "role": [
+                    ""
+                  ],
+                  "image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "small_image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+                  ],
+                  "average_rating": [
+                    "4.17"
+                  ],
+                  "ratings_count": [
+                    "729754"
+                  ],
+                  "text_reviews_count": [
+                    "72029"
+                  ]
+                }
+              ]
+            }
+          ],
+          "published": [
+            "2008"
+          ]
+        },
+        {
+          "id": [
+            {
+              "_": "6668467",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "isbn": [
+            "0312364121"
+          ],
+          "isbn13": [
+            "9780312364120"
+          ],
+          "text_reviews_count": [
+            {
+              "_": "7326",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "title": [
+            "Winter Garden"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1265932201m/6668467.jpg"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1265932201s/6668467.jpg"
+          ],
+          "large_image_url": [
+            ""
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/6668467-winter-garden"
+          ],
+          "num_pages": [
+            "394"
+          ],
+          "format": [
+            "Hardcover"
+          ],
+          "edition_information": [
+            ""
+          ],
+          "publisher": [
+            "St. Martin's Press"
+          ],
+          "publication_day": [
+            "2"
+          ],
+          "publication_year": [
+            "2010"
+          ],
+          "publication_month": [
+            "2"
+          ],
+          "average_rating": [
+            "4.12"
+          ],
+          "ratings_count": [
+            "63520"
+          ],
+          "description": [
+            "From the author of the smash-hit bestseller Firefly Lane and True Colors comes a powerful, heartbreaking novel that illuminates the intricate mother-daughter bond and explores the enduring links between the present and the past.<br><br>Meredith and Nina Whitson are as different as sisters can be. One stayed at home to raise her children and manage the family apple orchard: the other followed a dream and traveled the world to become a famous photojournalist. But when their beloved father falls ill, Meredith and Nina find themselves together again, standing alongside their cold, disapproving mother, Anya, who even now, offers no comfort to her daughters. As children, the only connection between them was the Russian fairy tale Anya sometimes told the girls at night. On his deathbed, their father extracts a promise from the women in his life: the fairy tale will be told one last time - and all the way to the end. Thus begins an unexpected journey into the truth of Anya's life in war-torn Leningrad, more than five decades ago. Alternating between the past and present, Meredith and Nina will finally hear the singular, harrowing story of their mother's life, and what they learn is a secret so terrible and terrifying that it will shake the very foundation of their family and change who they believe they are."
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "54493"
+                  ],
+                  "name": [
+                    "Kristin Hannah"
+                  ],
+                  "role": [
+                    ""
+                  ],
+                  "image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "small_image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+                  ],
+                  "average_rating": [
+                    "4.17"
+                  ],
+                  "ratings_count": [
+                    "729754"
+                  ],
+                  "text_reviews_count": [
+                    "72029"
+                  ]
+                }
+              ]
+            }
+          ],
+          "published": [
+            "2010"
+          ]
+        },
+        {
+          "id": [
+            {
+              "_": "8949352",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "isbn": [
+            "0312364423"
+          ],
+          "isbn13": [
+            "9780312364427"
+          ],
+          "text_reviews_count": [
+            {
+              "_": "5392",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "title": [
+            "Night Road"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1282369257m/8949352.jpg"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1282369257s/8949352.jpg"
+          ],
+          "large_image_url": [
+            ""
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/8949352-night-road"
+          ],
+          "num_pages": [
+            "385"
+          ],
+          "format": [
+            "Hardcover"
+          ],
+          "edition_information": [
+            ""
+          ],
+          "publisher": [
+            "St. Martin's Press"
+          ],
+          "publication_day": [
+            "22"
+          ],
+          "publication_year": [
+            "2011"
+          ],
+          "publication_month": [
+            "3"
+          ],
+          "average_rating": [
+            "4.17"
+          ],
+          "ratings_count": [
+            "56279"
+          ],
+          "description": [
+            "<em>For a mother, life comes down to a series of choices. <br>To hold on…<br>To let go..<br>To forget…<br>To forgive…<br>Which road will you take? </em><br><br>For eighteen years, Jude Farraday has put her children’s needs above her own, and it shows--her twins, Mia and Zach, are bright and happy teenagers. When Lexi Baill moves into their small, close knit community, no one is more welcoming than Jude. Lexi, a former foster child with a dark past, quickly becomes Mia’s best friend. Then Zach falls in love with Lexi and the three become inseparable. <br><br>Jude does everything to keep her kids safe and on track for college. It has always been easy--until senior year of high school. Suddenly she is at a loss. Nothing feels safe anymore; every time her kids leave the house, she worries about them. <br><br>On a hot summer’s night her worst fears come true. One decision will change the course of their lives. In the blink of an eye, the Farraday family will be torn apart and Lexi will lose everything. In the years that follow, each must face the consequences of that single night and find a way to forget…or the courage to forgive.<br><br>NIGHT ROAD is vivid, emotionally complex novel that raises profound questions about motherhood, identity, love, and forgiveness. It is a luminous, heartbreaking novel that captures both the exquisite pain of loss and the stunning power of hope. This is Kristin Hannah at her very best, telling an unforgettable story about the longing for family, the resilience of the human heart, and the courage it takes to forgive the people we love."
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "54493"
+                  ],
+                  "name": [
+                    "Kristin Hannah"
+                  ],
+                  "role": [
+                    ""
+                  ],
+                  "image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "small_image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+                  ],
+                  "average_rating": [
+                    "4.17"
+                  ],
+                  "ratings_count": [
+                    "729754"
+                  ],
+                  "text_reviews_count": [
+                    "72029"
+                  ]
+                }
+              ]
+            }
+          ],
+          "published": [
+            "2011"
+          ]
+        },
+        {
+          "id": [
+            {
+              "_": "12022079",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "isbn": [
+            "0312577206"
+          ],
+          "isbn13": [
+            "9780312577209"
+          ],
+          "text_reviews_count": [
+            {
+              "_": "3775",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "title": [
+            "Home Front"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1344319152m/12022079.jpg"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1344319152s/12022079.jpg"
+          ],
+          "large_image_url": [
+            ""
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/12022079-home-front"
+          ],
+          "num_pages": [
+            "390"
+          ],
+          "format": [
+            "Hardcover"
+          ],
+          "edition_information": [
+            ""
+          ],
+          "publisher": [
+            "St. Martin's Press"
+          ],
+          "publication_day": [
+            "31"
+          ],
+          "publication_year": [
+            "2012"
+          ],
+          "publication_month": [
+            "1"
+          ],
+          "average_rating": [
+            "4.12"
+          ],
+          "ratings_count": [
+            "36732"
+          ],
+          "description": [
+            "<em>All marriages have a breaking point. All families have wounds. All wars have a cost. . . .</em><br><br>Like many couples, Michael and Jolene Zarkades have to face the pressures of everyday life--children, careers, bills, chores--even as their twelve-year marriage is falling apart. Then an unexpected deployment sends Jolene deep into harm’s way and leaves defense attorney Michael at home, unaccustomed to being a single parent to their two girls. As a mother, it agonizes Jolene to leave her family, but as a soldier she has always understood the true meaning of duty. In her letters home, she paints a rose-colored version of her life on the front lines, shielding her family from the truth. But war will change Jolene in ways that none of them could have foreseen. When tragedy strikes, Michael must face his darkest fear and fight a battle of his own--for everything that matters to his family.<br><br>At once a profoundly honest look at modern marriage and a dramatic exploration of the toll war takes on an ordinary American family, <em>Home Front</em> is a story of love, loss, heroism, honor, and ultimately, hope. "
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "54493"
+                  ],
+                  "name": [
+                    "Kristin Hannah"
+                  ],
+                  "role": [
+                    ""
+                  ],
+                  "image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "small_image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+                  ],
+                  "average_rating": [
+                    "4.17"
+                  ],
+                  "ratings_count": [
+                    "729754"
+                  ],
+                  "text_reviews_count": [
+                    "72029"
+                  ]
+                }
+              ]
+            }
+          ],
+          "published": [
+            "2012"
+          ]
+        },
+        {
+          "id": [
+            {
+              "_": "3975186",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "isbn": [
+            "0312364105"
+          ],
+          "isbn13": [
+            "9780312364106"
+          ],
+          "text_reviews_count": [
+            {
+              "_": "2328",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "title": [
+            "True Colors"
+          ],
+          "image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          ],
+          "small_image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          ],
+          "large_image_url": [
+            ""
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/3975186-true-colors"
+          ],
+          "num_pages": [
+            "400"
+          ],
+          "format": [
+            "Hardcover"
+          ],
+          "edition_information": [
+            ""
+          ],
+          "publisher": [
+            "St. Martin's Press"
+          ],
+          "publication_day": [
+            "3"
+          ],
+          "publication_year": [
+            "2009"
+          ],
+          "publication_month": [
+            "2"
+          ],
+          "average_rating": [
+            "3.88"
+          ],
+          "ratings_count": [
+            "31333"
+          ],
+          "description": [
+            "<em>True Colors </em>is <em>New York Times</em> bestselling author Kristin Hannah’s most provocative, compelling, and heart-wrenching story yet. With the luminous writing and unforgettable characters that are her trademarks, she tells the story of three sisters whose once-solid world is broken apart by jealousy, betrayal, and the kind of passion that rarely comes along.<br><br>The Grey sisters have always been close. After their mother’s death, the girls banded together, becoming best friends. Their stern, disapproving father cares less about his children than about his reputation. To Henry Grey, appearances are everything, and years later, he still demands that his daughters reflect his standing in the community. <br><br>Winona, the oldest, needs her father’s approval most of all. An overweight bookworm who never felt at home on the sprawling horse ranch that has been in her family for three generations, she knows that she doesn’t have the qualities her father values. But as the best lawyer in town, she’s determined to someday find a way to prove her worth to him.<br><br>Aurora, the middle sister, is the family peacemaker. She brokers every dispute and tries to keep them all happy, even as she hides her own secret pain.<br><br>Vivi Ann is the undisputed star of the family. A stunningly beautiful dreamer with a heart as big as the ocean in front of her house, she is adored by all who know her. Everything comes easily for Vivi Ann, until a stranger comes to town. . . .<br><br>In a matter of moments, everything will change. The Grey sisters will be pitted against one another in ways that none could have imagined. Loyalties will be tested and secrets revealed, and a terrible, shocking crime will shatter both their family and their beloved town.<br><br>With breathtaking pace and penetrating emotional insight, <em>True Colors</em> is an unforgettable novel about sisters, rivalry, forgiveness, redemption--and ultimately, what it means to be a family."
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "54493"
+                  ],
+                  "name": [
+                    "Kristin Hannah"
+                  ],
+                  "role": [
+                    ""
+                  ],
+                  "image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "small_image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+                  ],
+                  "average_rating": [
+                    "4.17"
+                  ],
+                  "ratings_count": [
+                    "729754"
+                  ],
+                  "text_reviews_count": [
+                    "72029"
+                  ]
+                }
+              ]
+            }
+          ],
+          "published": [
+            "2009"
+          ]
+        },
+        {
+          "id": [
+            {
+              "_": "1470232",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "isbn": [
+            "0345467531"
+          ],
+          "isbn13": [
+            "9780345467539"
+          ],
+          "text_reviews_count": [
+            {
+              "_": "1867",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "title": [
+            "Magic Hour"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1320542057m/1470232.jpg"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1320542057s/1470232.jpg"
+          ],
+          "large_image_url": [
+            ""
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/1470232.Magic_Hour"
+          ],
+          "num_pages": [
+            "451"
+          ],
+          "format": [
+            "Mass Market Paperback"
+          ],
+          "edition_information": [
+            ""
+          ],
+          "publisher": [
+            "Ballantine Books"
+          ],
+          "publication_day": [
+            "27"
+          ],
+          "publication_year": [
+            "2007"
+          ],
+          "publication_month": [
+            "11"
+          ],
+          "average_rating": [
+            "4.09"
+          ],
+          "ratings_count": [
+            "28065"
+          ],
+          "description": [
+            "Dr. Julia Cates was one of the country's preeminent child psychiatrists until a shocking tragedy ruined her career. Retreating to her small western Washington hometown, Julia meets an extraordinary six-year-old girl who has inexplicably emerged from the deep woods nearby--a child locked in a world of unimaginable fear and isolation. To Julia, nothing is more important than saving the girl she now calls Alice. But Julia will need help from others, including the sister she barely knows and a handsome doctor with secrets of his own. What follows will test the limits of Julia's faith and strength, as she struggles to find a home for Alice . . . and for herself."
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "54493"
+                  ],
+                  "name": [
+                    "Kristin Hannah"
+                  ],
+                  "role": [
+                    ""
+                  ],
+                  "image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "small_image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+                  ],
+                  "average_rating": [
+                    "4.17"
+                  ],
+                  "ratings_count": [
+                    "729754"
+                  ],
+                  "text_reviews_count": [
+                    "72029"
+                  ]
+                }
+              ]
+            }
+          ],
+          "published": [
+            "2007"
+          ]
+        },
+        {
+          "id": [
+            {
+              "_": "217432",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "isbn": [
+            "0345450744"
+          ],
+          "isbn13": [
+            "9780345450746"
+          ],
+          "text_reviews_count": [
+            {
+              "_": "1152",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "title": [
+            "Between Sisters"
+          ],
+          "image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          ],
+          "small_image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          ],
+          "large_image_url": [
+            ""
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/217432.Between_Sisters"
+          ],
+          "num_pages": [
+            "428"
+          ],
+          "format": [
+            "Paperback"
+          ],
+          "edition_information": [
+            ""
+          ],
+          "publisher": [
+            "Ballantine Books"
+          ],
+          "publication_day": [
+            "1"
+          ],
+          "publication_year": [
+            "2004"
+          ],
+          "publication_month": [
+            "6"
+          ],
+          "average_rating": [
+            "4.00"
+          ],
+          "ratings_count": [
+            "28198"
+          ],
+          "description": [
+            "Meghann Dontess is a woman haunted by heartbreak. Twenty-five years ago she was forced to make a terrible choice, one that cost her everything, including the love of her sister, Claire. Now, Meghann is a hotshot divorce attorney who doesn’t believe in intimacy–-until she meets the one man who can change her mind.<br><br>Claire Cavenaugh has fallen in love for the first time in her life. As her wedding day approaches, she prepares to face her harsh, judgmental older sister and their self-absorbed mother. It is the first time they have been together in more than two decades. Over the course of a hot Pacific Northwest summer, these three women who believe they have nothing in common will try to become what they never were: a family.<br><br>Tender, funny, bittersweet, and wonderfully moving, <em>Between Sisters</em> celebrates the joys and heartaches that can only be shared by sisters, the mistakes made in the name of love and the healing power of new beginnings–-all beautifully told by acclaimed author Kristin Hannah."
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "54493"
+                  ],
+                  "name": [
+                    "Kristin Hannah"
+                  ],
+                  "role": [
+                    ""
+                  ],
+                  "image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "small_image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+                  ],
+                  "average_rating": [
+                    "4.17"
+                  ],
+                  "ratings_count": [
+                    "729754"
+                  ],
+                  "text_reviews_count": [
+                    "72029"
+                  ]
+                }
+              ]
+            }
+          ],
+          "published": [
+            "2004"
+          ]
+        },
+        {
+          "id": [
+            {
+              "_": "16044981",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "isbn": [
+            "0312577214"
+          ],
+          "isbn13": [
+            "9780312577216"
+          ],
+          "text_reviews_count": [
+            {
+              "_": "2733",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "title": [
+            "Fly Away (Firefly Lane, #2)"
+          ],
+          "image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1355338978m/16044981.jpg"
+          ],
+          "small_image_url": [
+            "https://d2arxad8u2l0g7.cloudfront.net/books/1355338978s/16044981.jpg"
+          ],
+          "large_image_url": [
+            ""
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/16044981-fly-away"
+          ],
+          "num_pages": [
+            "400"
+          ],
+          "format": [
+            "Hardcover"
+          ],
+          "edition_information": [
+            ""
+          ],
+          "publisher": [
+            "St. Martin's Press"
+          ],
+          "publication_day": [
+            "23"
+          ],
+          "publication_year": [
+            "2013"
+          ],
+          "publication_month": [
+            "4"
+          ],
+          "average_rating": [
+            "3.93"
+          ],
+          "ratings_count": [
+            "27428"
+          ],
+          "description": [
+            "<em>Once, a long time ago, I walked down a night-darkened road called Firefly Lane, all alone, on the worst night of my life, and I found a kindred spirit. That was our beginning. More than thirty years ago. TullyandKate. You and me against the world. Best friends forever. But stories end, don’t they? You lose the people you love and you have to find a way to go on. . . .</em><br><br>Tully Hart has always been larger than life, a woman fueled by big dreams and driven by memories of a painful past. She thinks she can overcome anything until her best friend, Kate Ryan, dies. Tully tries to fulfill her deathbed promise to Kate--to be there for Kate’s children -- but Tully knows nothing about family or motherhood or taking care of people.<br><br>Sixteen-year-old Marah Ryan is devastated by her mother’s death. Her father, Johnny, strives to hold the family together, but even with his best efforts, Marah becomes unreachable in her grief. Nothing and no one seems to matter to her . . . until she falls in love with a young man who makes her smile again and leads her into his dangerous, shadowy world. <br><br>Dorothy Hart--the woman who once called herself Cloud--is at the center of Tully’s tragic past. She repeatedly abandoned her daughter, Tully, as a child, but now she comes back, drawn to her daughter’s side at a time when Tully is most alone. At long last, Dorothy must face her darkest fear: Only by revealing the ugly secrets of her past can she hope to become the mother her daughter needs.<br><br>A single, tragic choice and a middle-of-the-night phone call will bring these women together and set them on a poignant, powerful journey of redemption. Each has lost her way, and they will need one another--and maybe a miracle--to transform their lives.<br><br>An emotionally complex, heart-wrenching novel about love, motherhood, loss, and new beginnings, <em>Fly Away</em> reminds us that where there is life, there is hope, and where there is love, there is forgiveness."
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "54493"
+                  ],
+                  "name": [
+                    "Kristin Hannah"
+                  ],
+                  "role": [
+                    ""
+                  ],
+                  "image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "small_image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+                  ],
+                  "average_rating": [
+                    "4.17"
+                  ],
+                  "ratings_count": [
+                    "729754"
+                  ],
+                  "text_reviews_count": [
+                    "72029"
+                  ]
+                }
+              ]
+            }
+          ],
+          "published": [
+            "2013"
+          ]
+        },
+        {
+          "id": [
+            {
+              "_": "217436",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "isbn": [
+            "0345471172"
+          ],
+          "isbn13": [
+            "9780345471178"
+          ],
+          "text_reviews_count": [
+            {
+              "_": "1170",
+              "$": {
+                "type": "integer"
+              }
+            }
+          ],
+          "title": [
+            "On Mystic Lake"
+          ],
+          "image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          ],
+          "small_image_url": [
+            "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+          ],
+          "large_image_url": [
+            ""
+          ],
+          "link": [
+            "https://www.goodreads.com/book/show/217436.On_Mystic_Lake"
+          ],
+          "num_pages": [
+            "448"
+          ],
+          "format": [
+            "Paperback"
+          ],
+          "edition_information": [
+            ""
+          ],
+          "publisher": [
+            "Ballantine Books"
+          ],
+          "publication_day": [
+            "27"
+          ],
+          "publication_year": [
+            "2004"
+          ],
+          "publication_month": [
+            "4"
+          ],
+          "average_rating": [
+            "3.95"
+          ],
+          "ratings_count": [
+            "23212"
+          ],
+          "description": [
+            "Annie Colwater’s husband has just confessed that he’s in love with a younger woman. Devastated, Annie retreats to the small town where she grew up. There, she is reunited with her first love, Nick Delacroix, a recent widower who is unable to cope with his silent, emotionally scarred young daughter. Together, the three of them begin to heal. But just when Annie believes she’s been given a second chance at happiness, her world is turned upside down again, and she is forced to make a choice that no woman in love should ever have to make."
+          ],
+          "authors": [
+            {
+              "author": [
+                {
+                  "id": [
+                    "54493"
+                  ],
+                  "name": [
+                    "Kristin Hannah"
+                  ],
+                  "role": [
+                    ""
+                  ],
+                  "image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p5/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "small_image_url": [
+                    {
+                      "_": "\nhttps://d2arxad8u2l0g7.cloudfront.net/authors/1417050721p2/54493.jpg\n",
+                      "$": {
+                        "nophoto": "false"
+                      }
+                    }
+                  ],
+                  "link": [
+                    "https://www.goodreads.com/author/show/54493.Kristin_Hannah"
+                  ],
+                  "average_rating": [
+                    "4.17"
+                  ],
+                  "ratings_count": [
+                    "729754"
+                  ],
+                  "text_reviews_count": [
+                    "72029"
+                  ]
+                }
+              ]
+            }
+          ],
+          "published": [
+            "2004"
+          ]
+        }
+      ]
+    }
+  ]
+}
