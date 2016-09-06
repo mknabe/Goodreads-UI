@@ -1,10 +1,10 @@
 {
   "books": [
     {
+      "_id": "123",
       "title": "Little House on the Prairie",
-      "goodreads": {
-        "id": "123"
-      }
+      "authors": ["63"],
+      "numPages": 12
     }
   ]
 }

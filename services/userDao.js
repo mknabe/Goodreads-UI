@@ -1,19 +1,13 @@
 var User = require('../models/user.js');
 
-exports.findUserByGoodreadsId = function (goodreadsUserId, callback) {
-  User.findOne({ 'goodreads.id': goodreadsUserId }, callback);
+exports.findById = function (goodreadsUserId) {
+  var query = User.findById(goodreadsUserId);
+  return query.exec();
 };
 
-exports.saveUser = function (user, callback) {
-  if (!user._id) {
+exports.saveUser = function (user) {
+  if (!(user instanceof User)) {
     user = new User(user);
   }
-  var options = {
-    upsert: true
-  };
-  User.findOneAndUpdate(
-      { '_id': user._id },
-      user,
-      options,
-      callback);
+  return user.save();
 };

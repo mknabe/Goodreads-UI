@@ -1,71 +1,67 @@
 var Promise = require('bluebird');
 var goodreads = require('./goodreads/goodreadsService');
-var async = require('async');
 var reviewService = require('./reviewDao');
 var bookDao = require('./bookDao');
+var authorDao = require('./authorDao');
 
-exports.syncUserWithGoodreads = function () {
-
-};
-
-exports.syncShelves = function (user, callback) {
-  goodreads.findShelvesForUser(user, callback);
-  goodreads.findReviewsForUser(user, { shelf: shelf }, shelfCallback);
-
-  async.waterfall([
-    function(callback) {
-    },
-    function(shelves, callback) {
-      var shelvesMap = {};
-      shelves.forEach(function (shelf) {
-        shelvesMap[shelf] = shelf;
-      });
-      async.mapValues(shelvesMap, function (shelf, key, shelfCallback) {
-        goodreads.findReviewsForUser(user, { shelf: shelf }, shelfCallback);
-      }, callback);
-    },
-    function (reviewsByShelf, callback) {
-      var reviews = [];
-      for (var shelfName in reviewsByShelf) {
-        if (!reviewsByShelf.hasOwnProperty(shelfName)) continue;
-        reviews = reviews.concat(reviewsByShelf[shelfName]);
-      }
-      async.forEach(reviews, syncReview, callback);
-    }
-  ], function (err) {
-    callback(err, !!err);
+var syncShelf = function (user, shelfName) {
+  return goodreads.findReviewsForUser(user, { shelf: shelfName }).then(function (mappedReviews) {
+    var promises = [];
+    mappedReviews.forEach(function (mappedReview) {
+      promises.push(syncReview(mappedReview._id, user._id));
+    });
+    return Promise.all(promises);
   });
 };
 
-var syncReview = function (goodreadsReview, username) {
-  goodreadsReview.username = username;
-
-  return syncBook(goodreadsReview.book)
-      .then(function (book) {
-        goodreadsReview.bookId = book._id;
-       return Promise.resolve(goodreadsReview.goodreads.id);
-      })
-      .then(reviewService.findReviewByGoodreadsId)
-      .then(function (review) {
-        if (review) {
-          return review;
-        } else {
-          return reviewService.saveReview(goodreadsReview);
-        }
-      });
+var syncAuthor = function (goodreadsAuthorId) {
+  return authorDao.findById(goodreadsAuthorId).then(function (author) {
+    // Do not update existing authors
+    if (author) {
+      return author;
+    } else {
+      return goodreads.findAuthor(goodreadsAuthorId).then(authorDao.findAndSaveAuthor);
+    }
+  });
 };
-exports.syncReview = syncReview;
 
-var syncBook = function (goodreadsBook) {
-  return bookDao.findBookByGoodreadsId(goodreadsBook.goodreads.id)
-      .then(function (book) {
-        if (book) {
-          return book;
-        } else {
-          return bookDao.saveBook(goodreadsBook);
-        }
-      }).catch(function (err) {
-        console.log(err);
-      });
+var syncBook = function (goodreadsBookId) {
+  return goodreads.findBook(goodreadsBookId).then(function (mappedBook) {
+    var authorPromises = [];
+    mappedBook.authors.forEach(function (goodreadsAuthorId) {
+      authorPromises.push(syncAuthor(goodreadsAuthorId));
+    });
+    return Promise.all(authorPromises).then(function () {
+      return bookDao.findAndUpdate(mappedBook);
+    });
+  });
 };
+
+var syncSeries = function (seriesGoodreadsId) {
+
+};
+
+var syncReview = function (goodreadsReviewId, goodreadsUserId) {
+  return goodreads.findReview(goodreadsReviewId).then(function (mappedReview) {
+    return syncBook(mappedReview.book.extended)
+        .then(function (book) {
+          mappedReview.user = goodreadsUserId;
+          return reviewService.findAndUpdate(mappedReview);
+        });
+  });
+};
+
+var shelvesToSync = ['to-read', 'read', 'currently-reading'];
+exports.syncShelves = function (user) {
+  var promises = [];
+  shelvesToSync.forEach(function (shelfName) {
+    promises.push(syncShelf(user, shelfName));
+  });
+  return Promise.all(promises);
+};
+
+exports.syncSeries = syncSeries;
+exports.syncAuthor = syncAuthor;
 exports.syncBook = syncBook;
+exports.syncReview = syncReview;
+exports.syncShelf = syncShelf;

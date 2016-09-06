@@ -1,0 +1,32 @@
+<h2>Books</h2>
+<table class="ui very basic collapsing celled table">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Num Pages</th>
+        <th>Avg Rating</th>
+        <th>Date Read</th>
+        <th>Date Added</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each reviews}}
+        <tr>
+            <td>
+                <h4 class="ui image header">
+                    <img src="{{this.book.image}}" alt="" class="ui tiny image">
+                    <div class="content">
+                        {{this.book.title}}
+                        <!--<div class="sub header">{{this.book.author}}</div>-->
+                    </div>
+                </h4>
+            </td>
+            <td>{{this.book.numPages}}</td>
+            <td>{{this.book.averageRating}}</td>
+            <td>{{this.readings.0.dateFinished}}</td>
+            <td>{{this.dateAdded}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+

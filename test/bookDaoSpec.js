@@ -21,54 +21,29 @@ beforeEach(function (done) {
 });
 
 describe('Books Dao', function () {
-  it('should lookup books by Goodreads Id', function (done) {
-    var goodreadsId = bookData[0].goodreads.id;
-    bookDao.findBookByGoodreadsId(goodreadsId).then(function(book) {
+  it('should lookup existing books by Id', function (done) {
+    bookDao.findBookById(bookData[0]._id).then(function(book) {
       book.title.should.equal(bookData[0].title);
       done();
     });
   });
 
-  it('should lookup books that do not exist by Goodreads Id', function (done) {
-    bookDao.findBookByGoodreadsId("NOTHING").then(function(book) {
+  it('should lookup books that do not exist by Id', function (done) {
+    bookDao.findBookById("NOTHING").then(function(book) {
       should.not.exist(book);
-      done();
-    });
-  });
-
-  it('should lookup books by Id', function (done) {
-    var id = mongoose.Types.ObjectId(bookData[0]._id);
-    bookDao.findBookById(id).then(function(book) {
-      book.title.should.equal(bookData[0].title);
       done();
     });
   });
 
   it('should save a new book', function(done) {
     var newBook = {
-      title: "my book",
-      goodreads: { id: 432 }
+      '_id': '432',
+      title: "my book"
     };
     bookDao.saveBook(newBook).then(function (book) {
       should.exist(book);
       newBook.title.should.equal(book.title);
       done();
     });
-  });
-
-  it('should check if a book exists', function(done) {
-    var goodreadsId = bookData[0].goodreads.id;
-    bookDao.doesBookExistForGoodreadsId(goodreadsId).then(function(doesBookExist) {
-      doesBookExist.should.equal(true);
-      done();
-    })
-  });
-
-  it('should check if a book does not exist', function(done) {
-    var goodreadsId = "CBAF";
-    bookDao.doesBookExistForGoodreadsId(goodreadsId).then(function(doesBookExist) {
-      doesBookExist.should.equal(false);
-      done();
-    })
   });
 });

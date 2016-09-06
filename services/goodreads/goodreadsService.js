@@ -16,8 +16,8 @@ exports.getUpdatesFeed = function (user) {
   return new Promise(function (resolve, reject) {
     oauth.get(
         goodreadsUrl + '/updates/friends.xml',
-        user.user_oauth_token,
-        user.user_oauth_token_secret,
+        user.oauthToken,
+        user.oauthTokenSecret,
         function(error, response, body) {
           if (error) reject(error);
           resolve(parseXml(response));
@@ -29,9 +29,9 @@ exports.getUpdatesFeed = function (user) {
 exports.findShelvesForUser = function(user) {
   var goodreadsResponse = new Promise(function (resolve, reject) {
     oauth.get(
-        goodreadsUrl + '/shelf/list.xml?key=' + config.goodreads.key + '&user_id=' + user.goodreads_user_id,
-        user.user_oauth_token,
-        user.user_oauth_token_secret,
+        goodreadsUrl + '/shelf/list.xml?key=' + config.goodreads.key + '&user_id=' + user._id,
+        user.oauthToken,
+        user.oauthTokenSecret,
         function (error, response, body) {
           if (error) reject(error);
           resolve(parseXml(response));
@@ -49,8 +49,9 @@ exports.findShelvesForUser = function(user) {
 
 // reviews.list
 exports.findReviewsForUser = function(user, params) {
-  var url = goodreadsUrl + '/review/list/' + user.goodreads_user_id + '.xml?v=2&key=' + config.goodreads.key;
+  var url = goodreadsUrl + '/review/list/' + user._id + '.xml?v=2&key=' + config.goodreads.key;
   url += '&sort=date_updated';
+  url+= '&per_page=200';
 
   if (params.shelf) {
     url+= '&shelf=' + params.shelf;
@@ -58,19 +59,14 @@ exports.findReviewsForUser = function(user, params) {
 
   // page: 1-N (optional)
   if (params.page) {
-    url+= '&page=' + params.page; 
-  }
-
-  // per_page: 1-200 (optional)
-  if (params.per_page) {
-    url+= '&per_page=' + params.per_page; 
+    url+= '&page=' + params.page;
   }
 
   var goodreadsResponse = new Promise(function (resolve, reject) {
     oauth.get(
         url,
-        user.user_oauth_token,
-        user.user_oauth_token_secret,
+        user.oauthToken,
+        user.oauthTokenSecret,
         function (error, response, body) {
           if (error) reject(error);
           resolve(parseXml(response));
@@ -93,22 +89,34 @@ var getPublicGoodreadsData = function (url) {
 
 // book.show
 exports.findBook = function(bookId) {
-  return getPublicGoodreadsData(goodreadsUrl + '/book/show/' + bookId + '.xml?key=' + config.goodreads.key);
+  var promise = getPublicGoodreadsData(goodreadsUrl + '/book/show/' + bookId + '.xml?key=' + config.goodreads.key);
+  return promise.then(function (book) {
+    return mapper.mapBook(book);
+  });
 };
 
 // series.show
 exports.findSeries = function(seriesId) {
-  return getPublicGoodreadsData(goodreadsUrl + '/series/' + seriesId + '?format=xml&key=' + config.goodreads.key);
+  var promise = getPublicGoodreadsData(goodreadsUrl + '/series/' + seriesId + '?format=xml&key=' + config.goodreads.key);
+  return promise.then(function (series) {
+    return mapper.mapSeries(series);
+  });
 };
 
 // author.show
 exports.findAuthor = function(authorId) {
-  return getPublicGoodreadsData(goodreadsUrl + '/author/show/' + authorId + '?format=xml&key=' + config.goodreads.key);
+  var promise = getPublicGoodreadsData(goodreadsUrl + '/author/show/' + authorId + '?format=xml&key=' + config.goodreads.key);
+  return promise.then(function (author) {
+    return mapper.mapAuthor(author);
+  });
 };
 
 // review.show
 exports.findReview = function(reviewId) {
-  return getPublicGoodreadsData(goodreadsUrl + '/review/show.xml?id=' + reviewId + '&key=' + config.goodreads.key);
+  var promise = getPublicGoodreadsData(goodreadsUrl + '/review/show.xml?id=' + reviewId + '&key=' + config.goodreads.key);
+  return promise.then(function (review) {
+    return mapper.mapReview(review);
+  });
 };
 
 // user_status.show

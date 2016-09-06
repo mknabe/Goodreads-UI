@@ -14,12 +14,12 @@ describe('Mapper service', function() {
     var book = mapperService.mapBook(bookXml);
     book.publication = book.publication.toString();
     book.firstPublication = book.firstPublication.toString();
+    delete book.popularShelves;
     book.should.deep.equal(mappedBook);
   });
 
   it('should map a review', function() {
     var review = mapperService.mapReview(reviewXml);
-    delete review.relationships;
     review.dateAdded = review.dateAdded.toString();
     review.readings[0].dateStarted = review.readings[0].dateStarted.toString();
     review.should.deep.equal(mappedReview);

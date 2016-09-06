@@ -4,7 +4,8 @@ var should = chai.should();
 var goodreadsService = require('../services/goodreads/goodreadsService');
 
 describe('Goodreads service', function() {
-  it('should get friends\' updates', function(done) {
+  // TODO: figure out how to store oauth tokens
+  xit('should get friends\' updates', function(done) {
     var user = {
       user_oauth_token: 'lvyfhbqFMhih7ZGdUyCw',
       user_oauth_token_secret: 'IaJzlM2PejXUtiSNRXxkOE8SFTDwpR69zbo74kt4ZoY'
@@ -15,7 +16,7 @@ describe('Goodreads service', function() {
     });
   });
 
-  it('should get a user\'s reviews', function(done) {
+  xit('should get a user\'s reviews', function(done) {
     var user = {
       user_oauth_token: 'lvyfhbqFMhih7ZGdUyCw',
       user_oauth_token_secret: 'IaJzlM2PejXUtiSNRXxkOE8SFTDwpR69zbo74kt4ZoY',
@@ -28,9 +29,9 @@ describe('Goodreads service', function() {
   });
 
   it('should get a book', function(done) {
-    var bookId = 21853621;
-    goodreadsService.findBook(bookId).then(function (json) {
-      should.exist(json.id);
+    var bookId = '21853621';
+    goodreadsService.findBook(bookId).then(function (mappedBook) {
+      should.exist(mappedBook._id);
       done();
     });
   });

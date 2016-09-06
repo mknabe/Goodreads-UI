@@ -3,16 +3,17 @@ var Author = require('./author');
 var Series = require('./series');
 
 var bookSchema = mongoose.Schema({
+  _id: String,
   title: String,
   authors: [{
     type: String,
-    ref: 'Author.goodreads.id'
+    ref: 'Author'
   }],
   description: String,
   series: {
     goodreadsId: {
       type: String,
-      ref: 'Series.goodreads.id'
+      ref: 'Series'
     },
     title: String,
     position: Number
@@ -23,7 +24,6 @@ var bookSchema = mongoose.Schema({
     large: String
   },
   goodreads: {
-    id: String,
     workId: String,
     url: String
   },

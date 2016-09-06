@@ -1,11 +1,8 @@
 {
   "users": [
     {
-      "name": "Test User",
-      "username": "testuser",
-      "goodreads": {
-        "id": "U1"
-      }
+      "_id": "U1",
+      "name": "Test User"
     }
   ]
 }

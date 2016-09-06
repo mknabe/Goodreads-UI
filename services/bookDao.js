@@ -4,26 +4,33 @@ exports.findBooksByAuthor = function() {
 
 };
 
-var findBookByGoodreadsId = function (goodreadsId) {
-  var query = Book.findOne({ 'goodreads.id': goodreadsId });
-  return query.exec();
-};
-exports.findBookByGoodreadsId = findBookByGoodreadsId;
-
-exports.findBookById = function (id) {
+var findById = function (id) {
   var query = Book.findById(id);
   return query.exec();
 };
+exports.findBookById = findById;
 
-exports.doesBookExistForGoodreadsId = function (goodreadsId) {
-  return findBookByGoodreadsId(goodreadsId).then(function (book) {
-    return !!book;
+exports.findAndUpdate = function (book) {
+  return findById(book._id).then(function (foundBook) {
+    if (foundBook) {
+      if (foundBook.numPages) {
+        book.numPages = foundBook.numPages;
+      }
+      return Book.findByIdAndUpdate(foundBook.id, book, { new: true });
+    } else {
+      return saveBook(book);
+    }
   });
 };
 
-exports.saveBook = function(book) {
+var saveBook = function(book) {
   if (!(book instanceof Book)) {
     book = new Book(book);
   }
+  var error = book.validateSync();
+  if (error) {
+    console.log(error);
+  }
   return book.save();
 };
+exports.saveBook = saveBook;

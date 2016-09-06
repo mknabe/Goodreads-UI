@@ -1,28 +1,30 @@
 var Review = require('../models/review');
 var Book = require('../models/book');
 
-exports.findAllReviewsForUser = function () {
-
-};
-
-exports.findReviewsForUserAndShelf = function () {
-
-};
-
-var findReviewByGoodreadsId = function (goodreadsId) {
-  var query = Review.findOne({ 'goodreads.id': goodreadsId });
-  return query.exec();
-};
-exports.findReviewByGoodreadsId = findReviewByGoodreadsId;
-
-exports.findReviewById = function (id, callback) {
-  var query = Review.findById(id, callback);
+exports.findAllReviewsForUser = function (userId) {
+  var query = Review.find({ 'user': userId }).sort('-dateAdded');
   return query.exec();
 };
 
-exports.doesReviewExistForGoodreadsId = function (goodreadsId) {
-  return findReviewByGoodreadsId(goodreadsId, function (review) {
-    return !!review;
+exports.findReviewsForUserAndShelf = function (userId, shelfName) {
+  var query = Review.find({ 'user': userId, 'shelves': shelfName }).sort('-dateAdded');
+  return query.exec();
+};
+
+var findById = function (id) {
+  var query = Review.findById(id);
+  return query.exec();
+};
+exports.findById = findById;
+
+exports.findAndUpdate = function (review) {
+  return findById(review._id).then(function (foundReview) {
+    if (foundReview) {
+      return Review.findByIdAndUpdate(foundReview.id, review, { new: true });
+    } else {
+      var newReview = new Review(review);
+      return newReview.save();
+    }
   });
 };
 

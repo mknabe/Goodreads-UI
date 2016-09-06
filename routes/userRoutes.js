@@ -1,6 +1,6 @@
 var oauth = require('../config/oauthConfig');
 var auth = require('../services/goodreads/authenticationService');
-var User = require('../services/userDao');
+var userDao = require('../services/userDao');
 var config = require('../config');
 
 exports.getLoginForm = function (req, res) {
@@ -14,13 +14,12 @@ exports.getRequestToken = function (req, res) {
     req.session.user = {};
   }
   var goodreadsUserId = req.body.goodreadsUserId;
-  req.session.user.goodreads_user_id = goodreadsUserId;
+  req.session.user.id = goodreadsUserId;
 
-  User.findUserByGoodreadsId(goodreadsUserId, function(err, user) {
+  userDao.findById(goodreadsUserId).then(function(user) {
     if (user) {
       console.log('user found');
-      req.session.user.oauth_user_token = user.goodreads.oauthToken;
-      req.session.user.oauth_request_token_secret = user.goodreads.oauthTokenSecret;
+      req.session.user = user;
       res.redirect('/');
     } else {
       auth.getRequestToken(function (err, response) {
@@ -36,16 +35,16 @@ exports.getRequestToken = function (req, res) {
 exports.getAccessToken = function (req, res) {
   auth.getAccessToken(req.session.user.oauth_request_token, req.session.user.oauth_request_token_secret,
       function (err, response) {
-        req.session.user.oauth_user_token = response.oauth_user_token;
-        req.session.user.oauth_request_token_secret = response.oauth_user_token_secret;
-
-        var user = { goodreads: {
-          id: req.session.user.goodreads_user_id,
-          oauthToken: response.oauth_user_token,
-          oauthTokenSecret: response.oauth_user_token_secret
-        } };
-        User.saveUser(user);
-
-        res.render('home');
+        var user = {
+          _id: req.session.user.id,
+          goodreads: {
+            oauthToken: response.oauth_user_token,
+            oauthTokenSecret: response.oauth_user_token_secret
+          }
+        };
+        userDao.saveUser(user).then(function (savedUser) {
+          req.session.user = savedUser;
+          res.render('home');
+        });
       });
 };

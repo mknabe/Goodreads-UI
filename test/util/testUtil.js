@@ -5,9 +5,11 @@ var config = require('../../config');
 
 var userData = require('../data/seed/userData').users;
 var bookData = require('../data/seed/bookData').books;
+var authorData = require('../data/seed/authorData').authors;
 
 var User = require('../../models/User');
 var Book = require('../../models/book');
+var Author = require('../../models/author');
 
 exports.connectToDb = function (done) {
   if (mongoose.connection.readyState === 1) return done();
@@ -19,6 +21,12 @@ exports.connectToDb = function (done) {
   };
   mongoose.Promise = Promise;
   mongoose.connect(config.mongo[process.env.NODE_ENV], opts, done);
+};
+
+exports.seedAuthors = function () {
+  return Author.remove({}).then(function () {
+    return Author.collection.insertMany(authorData);
+  });
 };
 
 exports.seedBooks = function () {

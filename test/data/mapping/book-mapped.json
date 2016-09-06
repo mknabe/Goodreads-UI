@@ -1,4 +1,8 @@
 {
+  "_id": "228665",
+  "authors": [
+    "6252"
+  ],
   "title": "The Eye of the World (Wheel of Time, #1)",
   "description": "The Wheel of Time turns and Ages come and go, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth returns again. In the Third Age, an Age of Prophecy, the World and Time themselves hang in the balance. What was, what will be, and what is, may yet fall under the Shadow.",
   "publication": "Thu Nov 15 1990 00:00:00 GMT-0600 (CST)",
@@ -6,7 +10,6 @@
   "isbn": "0812511816",
   "isbn13": "9780812511819",
   "goodreads": {
-    "id": "228665",
     "url": "https://www.goodreads.com/book/show/228665.The_Eye_of_the_World",
     "workId": "2008238"
   },

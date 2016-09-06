@@ -20,6 +20,7 @@ before(function (done) {
 
 beforeEach(function (done) {
   Promise.all([
+    testUtil.seedAuthors(),
     testUtil.seedBooks(),
     testUtil.seedUsers()
   ]).then(function() {
@@ -30,24 +31,20 @@ beforeEach(function (done) {
 describe('Syncing books', function () {
   it('should get the book if it already exists', function(done) {
     var existingBook = bookData[0];
-    var id = mongoose.Types.ObjectId(bookData[0]._id);
-    syncService.syncBook(existingBook).then(function (book) {
+    syncService.syncBook(existingBook._id).then(function (book) {
       should.exist(book);
-      id.should.equal(existingBook._id);
+      book.id.should.equal(existingBook._id);
       done();
     });
   });
 
   it('should create the book if it does not exist', function(done) {
-    var newBook = {
-      title: "my book",
-      goodreads: { id: 432 }
-    };
-    syncService.syncBook(newBook).then(function (savedBook) {
+    var goodreadsBookId = '432';
+    syncService.syncBook(goodreadsBookId).then(function (savedBook) {
       bookDao.findBookById(savedBook._id).then(function (foundBook) {
         should.exist(foundBook);
         true.should.equal(foundBook instanceof Book);
-        newBook.title.should.equal(foundBook.title);
+        goodreadsBookId.should.equal(foundBook.id);
         done();
       });
     });
@@ -56,21 +53,12 @@ describe('Syncing books', function () {
 
 describe('Syncing reviews', function() {
   it('should save a new review with a reference to an existing book', function(done) {
-    var newReview = {
-      goodreads: {
-        id: 'R1'
-      },
-      book: {
-        goodreads: {
-          id: 'B1'
-        }
-      }
-    };
-    var username = userData[0].username;
-    syncService.syncReview(newReview, username).then(function (review) {
+    var goodreadsReviewId = '1456897430';
+    var goodreadsUserId = userData[0]._id;
+    syncService.syncReview(goodreadsReviewId, goodreadsUserId).then(function (review) {
       should.exist(review);
-      review.username.should.equal(username);
-      should.exist(review.bookId);
+      review.user.should.equal(goodreadsUserId);
+      goodreadsReviewId.should.equal(review.id);
       done();
     });
   });

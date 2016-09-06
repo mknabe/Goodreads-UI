@@ -3,20 +3,27 @@
   <head>
     <title>My Books</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+    <script src="/semantic/dist/semantic.min.js"></script>
   </head>
   <body>
-    <header>
-      <img src="/img/logo.png" alt="Logo">
+    <header class="ui fixed menu">
+      <img class="brand item" src="/img/logo.png" alt="Logo">
 
-      <nav>
-        <a href="/login">Login</a>
-        <a href="/sync">Sync</a>
+      <nav class="menu">
+        <a class="item" href="/">Home</a>
+        <a class="item" href="/login">Login</a>
+        <a class="item" href="/sync">Sync</a>
+        <a class="item" href="/books">Books</a>
       </nav>
     </header>
     <header><h1>My Books</h1></header>
-    {{{body}}}
-    <footer>&copy; {{copyrightYear}} Meadowlark Travel</footer>
+    <div class="ui grid centered">
+        <div class="twelve wide column">
+            {{{body}}}
+        </div>
+    </div>
+    <footer>&copy; {{copyrightYear}} Goodreads UI</footer>
 
     <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
   </body>

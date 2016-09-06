@@ -12,20 +12,24 @@ var readingSchema = mongoose.Schema({
 });
 
 var reviewSchema = mongoose.Schema({
+  _id: String,
   book: {
-    goodreadsId: {
+    extended: {
       type: String,
-      ref: 'Book.goodreads.id',
+      ref: 'Book',
       required: true
-    }
+    },
+    title: String,
+    numPages: Number,
+    averageRating: Number,
+    image: String
   },
-  username: {
+  user: {
     type: String,
-    ref: 'User.username',
+    ref: 'User',
     required: true
   },
   goodreads: {
-    id: String,
     url: String
   },
   rating: Number,
@@ -35,5 +39,5 @@ var reviewSchema = mongoose.Schema({
   owned: Boolean,
   dateAdded: Date
 });
-var Review = mongoose.model('Series', reviewSchema);
+var Review = mongoose.model('Review', reviewSchema);
 module.exports = Review;
