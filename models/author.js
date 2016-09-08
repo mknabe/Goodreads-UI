@@ -4,9 +4,17 @@ var authorSchema = mongoose.Schema({
   _id: String,
   name: String,
   goodreads: {
-    url: String
-  }
-  // books?
+    url: String,
+    userId: String
+  },
+  images: {
+    small: String,
+    medium: String,
+    large: String
+  },
+  about: String,
+  fans: Number,
+  hometown: String
 });
 var Author = mongoose.model('Author', authorSchema);
 module.exports = Author;

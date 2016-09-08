@@ -5,7 +5,7 @@ exports.findBooksByAuthor = function() {
 };
 
 var findById = function (id) {
-  var query = Book.findById(id);
+  var query = Book.findById(id).populate('authors');
   return query.exec();
 };
 exports.findBookById = findById;

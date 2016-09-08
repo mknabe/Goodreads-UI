@@ -20,9 +20,22 @@ var reviewSchema = mongoose.Schema({
       required: true
     },
     title: String,
+    authors: [{
+      goodreadsId: String,
+      name: String
+    }],
+    series: {
+      title: String,
+      position: Number,
+      goodreadsId: String
+    },
     numPages: Number,
     averageRating: Number,
-    image: String
+    images: {
+      small: String,
+      medium: String,
+      large: String
+    }
   },
   user: {
     type: String,
@@ -39,5 +52,6 @@ var reviewSchema = mongoose.Schema({
   owned: Boolean,
   dateAdded: Date
 });
+
 var Review = mongoose.model('Review', reviewSchema);
 module.exports = Review;

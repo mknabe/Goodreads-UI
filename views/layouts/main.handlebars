@@ -7,23 +7,29 @@
     <script src="/semantic/dist/semantic.min.js"></script>
   </head>
   <body>
-    <header class="ui fixed menu">
-      <img class="brand item" src="/img/logo.png" alt="Logo">
+    <div class="ui segment basic">
+        <header class="ui large secondary menu">
+          <img class="brand item" src="/img/logo.png" alt="Logo">
 
-      <nav class="menu">
-        <a class="item" href="/">Home</a>
-        <a class="item" href="/login">Login</a>
-        <a class="item" href="/sync">Sync</a>
-        <a class="item" href="/books">Books</a>
-      </nav>
-    </header>
+          <nav class="menu">
+            <a class="item" href="/">Home</a>
+            <a class="item" href="/login">Login</a>
+            <a class="item" href="/sync">Sync</a>
+            <a class="item" href="/books">Books</a>
+          </nav>
+        </header>
+    </div>
     <header><h1>My Books</h1></header>
     <div class="ui grid centered">
         <div class="twelve wide column">
             {{{body}}}
         </div>
     </div>
-    <footer>&copy; {{copyrightYear}} Goodreads UI</footer>
+    <footer class="ui footer basic segment">
+        <div class="ui container">
+            &copy; {{copyrightYear}} Goodreads UI
+        </div>
+    </footer>
 
     <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
   </body>

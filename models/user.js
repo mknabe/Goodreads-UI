@@ -5,6 +5,10 @@ var userSchema = mongoose.Schema({
     type: String,
     unique: true
   },
+  username: {
+    type: String,
+    unique: true
+  },
   name: String,
   // password
   goodreads: {

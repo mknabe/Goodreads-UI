@@ -1,11 +1,18 @@
 <h2>Books</h2>
-<table class="ui very basic collapsing celled table">
+
+<div>
+    <div><a href="/books/currently-reading">currently-reading</a></div>
+    <div><a href="/books/to-read">to-read</a></div>
+    <div><a href="/books/read">read</a></div>
+</div>
+
+<table class="ui very basic table">
     <thead>
     <tr>
         <th>Title</th>
         <th>Num Pages</th>
         <th>Avg Rating</th>
-        <th>Date Read</th>
+        <th>Date Finished</th>
         <th>Date Added</th>
     </tr>
     </thead>
@@ -14,19 +21,38 @@
         <tr>
             <td>
                 <h4 class="ui image header">
-                    <img src="{{this.book.image}}" alt="" class="ui tiny image">
-                    <div class="content">
-                        {{this.book.title}}
-                        <!--<div class="sub header">{{this.book.author}}</div>-->
+                    <div style="display:inline-block; vertical-align:middle;">
+                <a href="/book/{{this.book.extended}}">
+                    <img src="{{this.book.images.medium}}" alt="" class="ui tiny image">
+                </a>
+                    </div>
+                    <div class="content" style="padding-left: .75rem;vertical-align: middle;">
+                        <a href="/book/{{this.book.extended}}">
+                            {{this.book.title}}
+                        </a>
+                        <div class="sub header">
+                            <a href="/author/{{this.book.authors.0.goodreadsId}}">
+                                {{this.book.authors.0.name}}
+                            </a>
+                        </div>
+                        <div class="sub header">
+                            <a href="/series/{{this.book.series.goodreadsId}}">
+                                {{this.book.series.title}}
+                                {{#if this.book.series.position}}
+                                <span>
+                                    #{{this.book.series.position}}
+                                </span>
+                                {{/if}}
+                            </a>
+                        </div>
                     </div>
                 </h4>
             </td>
             <td>{{this.book.numPages}}</td>
             <td>{{this.book.averageRating}}</td>
-            <td>{{this.readings.0.dateFinished}}</td>
-            <td>{{this.dateAdded}}</td>
+            <td class="single line">{{formatDate this.readings.0.dateFinished}}</td>
+            <td class="single line">{{formatDate this.dateAdded}}</td>
         </tr>
     {{/each}}
     </tbody>
 </table>
-

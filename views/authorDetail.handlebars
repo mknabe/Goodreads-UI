@@ -1,19 +1,22 @@
 <div class="ui grid">
     <div class="four wide column">
-        <img class="ui image left floated" src="{{book.images.large}}" alt="">
+        <img class="ui image left floated" src="{{author.images.large}}" alt="">
     </div>
     <div class="eight wide column">
         <div class="ui segment basic">
             <h1 class="ui header">
-                {{book.title}}
+                {{author.name}}
                 <div class="sub header">
-                    by {{#each book.authors}}{{#if @index}}, {{/if}}{{this.name}}{{/each}}
+                    {{author.hometown}}
                 </div>
+                <div class="sub header">{{author.fans}} Fans</div>
             </h1>
             <div class="ui divider"></div>
-            {{{book.description}}}
+            {{{author.about}}}
+
+
+
+            
         </div>
     </div>
 </div>
-
-

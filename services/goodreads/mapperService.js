@@ -8,7 +8,7 @@ var mapReview = function (reviewXml) {
       url: reviewXml.url[0]
     },
     rating: parseInt(reviewXml.rating[0]),
-    dateAdded: moment(reviewXml.date_added[0], 'ddd MMM DD HH:mm:ss ZZ YYYY').toDate(),
+    dateAdded: moment(reviewXml.date_added[0], 'ddd MMM DD HH:mm:ss ZZ YYYY').toDate()
   };
 
   review.readings = [];
@@ -20,11 +20,21 @@ var mapReview = function (reviewXml) {
     extended: mappedBook._id._,
     title: mappedBook.title,
     averageRating: mappedBook.rating.average,
-    image: mappedBook.images.small
+    images: mappedBook.images
   };
   if (mappedBook.numPages) {
     review.book.numPages = mappedBook.numPages;
   }
+
+  var authors = [];
+  bookXml.authors[0].author.forEach(function (authorXml) {
+    var author = mapAuthor(authorXml);
+    authors.push({
+      goodreadsId: author._id,
+      name: author.name
+    });
+  });
+  review.book.authors = authors;
 
   if (reviewXml.body[0].trim().length > 0) {
     review.body = reviewXml.body[0].trim();
@@ -115,11 +125,9 @@ var mapBook = function (bookXml) {
     book.popularShelves = popularShelves;
   }
 
-  var authors = [];
   var authorGoodreadsIds = [];
   bookXml.authors[0].author.forEach(function (authorXml) {
     var author = mapAuthor(authorXml);
-    authors.push(author);
     authorGoodreadsIds.push(author._id);
   });
   book.authors = authorGoodreadsIds;
@@ -133,6 +141,20 @@ var mapAuthor = function (authorXml) {
   author.name = authorXml.name[0];
   author.goodreads = {};
   author.goodreads.url = authorXml.link[0];
+  if (authorXml.user) author.goodreads.userId = authorXml.user[0].id[0]._;
+  author.images = {};
+  if (typeof authorXml.small_image_url[0] === 'string') {
+    author.images.small = authorXml.small_image_url[0].trim();
+  }
+  if (typeof authorXml.image_url[0] === 'string') {
+    author.images.medium = authorXml.image_url[0].trim();
+  }
+  if (authorXml.large_image_url && typeof authorXml.large_image_url[0] === 'string') {
+    author.images.large = authorXml.large_image_url[0].trim();
+  }
+  if (authorXml.about) author.about = authorXml.about[0];
+  if (authorXml.fans_count) author.fans = parseInt(authorXml.fans_count[0]._);
+  if (authorXml.hometown) author.hometown = authorXml.hometown[0];
   return author;
 };
 

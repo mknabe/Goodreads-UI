@@ -3,6 +3,8 @@ var user = require('./routes/userRoutes.js');
 var sync = require('./routes/syncRoutes.js');
 var goodreads = require('./routes/goodreadsRoutes');
 var review = require('./routes/reviewRoutes');
+var book = require('./routes/bookRoutes');
+var author = require('./routes/authorRoutes');
 
 module.exports = function(app) {
   app.get('/', home.home);
@@ -15,6 +17,10 @@ module.exports = function(app) {
 
   app.get('/books', review.allReviews);
   app.get('/books/:shelfName', review.allReviewsForShelf);
+
+  app.get('/book/:id', book.getBook);
+  app.get('/author/:id', author.getAuthor);
+  // app.get('/series/:id', series.getSeries);
 
   app.get('/goodreads/book/:id', goodreads.getBook);
   app.get('/goodreads/series/:id', goodreads.getSeries);

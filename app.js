@@ -2,16 +2,15 @@ var express = require('express');
 var mongoose = require('mongoose');
 var Promise = require('bluebird');
 var config = require('./config.json');
+var moment = require('moment');
 
 var app = express();
 
 var handlebars = require('express-handlebars').create({
   defaultLayout: 'main',
   helpers: {
-    section: function(name, options){
-      if(!this._sections) this._sections = {};
-      this._sections[name] = options.fn(this);
-      return null;
+    formatDate: function(date) {
+      return moment(date).format('MMM D, YYYY');
     }
   }
 });

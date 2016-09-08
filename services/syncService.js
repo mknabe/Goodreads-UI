@@ -46,6 +46,7 @@ var syncReview = function (goodreadsReviewId, goodreadsUserId) {
     return syncBook(mappedReview.book.extended)
         .then(function (book) {
           mappedReview.user = goodreadsUserId;
+          mappedReview.book.series = book.series;
           return reviewService.findAndUpdate(mappedReview);
         });
   });
