@@ -1,0 +1,32 @@
+<h2>Register</h2>
+
+<form method="POST" action="/register" novalidate class="ui form">
+    <div class="field {{hasError formValidationErrors.name}}">
+        <small class="error-message">{{formValidationErrors.name.msg}}</small>
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Name" required value="{{formFields.name}}">
+    </div>
+    <div class="field {{hasError formValidationErrors.username}}">
+        <small class="error-message">{{formValidationErrors.username.msg}}</small>
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Username" required value="{{formFields.username}}">
+    </div>
+    <div class="field {{hasError formValidationErrors.goodreadsUserId}}">
+        <small class="error-message">{{formValidationErrors.goodreadsUserId.msg}}</small>
+        <label for="goodreadsUserId">Goodreads User Id</label>
+        <input type="text" name="goodreadsUserId" placeholder="Goodreads User Id" required value="{{formFields.goodreadsUserId}}">
+    </div>
+    <div class="field {{hasError formValidationErrors.password}}">
+        <small class="error-message">{{formValidationErrors.password.msg}}</small>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" required value="{{formFields.password}}">
+    </div>
+
+    {{#if formError}}
+        <div class="form-error">
+            {{formError}}
+        </div>
+    {{/if}}
+
+    <button class="ui button primary" type="submit">Register</button>
+</form>

@@ -7,14 +7,18 @@ var userSchema = mongoose.Schema({
   },
   username: {
     type: String,
-    unique: true
+    unique: true,
+    required: true
   },
   name: String,
-  // password
   goodreads: {
     // TODO: encode these
     oauthToken: String,
     oauthTokenSecret: String
+  },
+  password: {
+    type: String,
+    required: true
   }
 });
 var User = mongoose.model('User', userSchema);

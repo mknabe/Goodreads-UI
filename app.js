@@ -3,6 +3,7 @@ var mongoose = require('mongoose');
 var Promise = require('bluebird');
 var config = require('./config.json');
 var moment = require('moment');
+var expressValidator = require('express-validator');
 
 var app = express();
 
@@ -11,6 +12,9 @@ var handlebars = require('express-handlebars').create({
   helpers: {
     formatDate: function(date) {
       return moment(date).format('MMM D, YYYY');
+    },
+    hasError: function(error) {
+      return !!error == true ? 'error' : '';
     }
   }
 });
@@ -29,7 +33,15 @@ app.set('view engine', 'handlebars');
 app.use(express.static(__dirname + '/public'));
 app.set('port', process.env.PORT || 3000);
 
+var userValidator = require('./services/userValidator');
+
 app.use(require('body-parser').urlencoded({ extended: true }));
+app.use(expressValidator({
+  customValidators: {
+    isUniqueUsername: userValidator.uniqueUsername,
+    isUniqueGoodreadsUserId: userValidator.uniqueGoodreadsId
+  }
+}));
 
 app.use(require('express-session')({
   resave: false,

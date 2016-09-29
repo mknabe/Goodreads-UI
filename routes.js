@@ -7,12 +7,25 @@ var book = require('./routes/bookRoutes');
 var author = require('./routes/authorRoutes');
 
 module.exports = function(app) {
+  app.use(function(req, res, next) {
+    if (req.session.user) {
+      res.locals.user = {
+        name: req.session.user.name,
+        username: req.session.user.username,
+        isLoggedIn: true
+      };
+    }
+    next();
+  });
+
   app.get('/', home.home);
 
+  app.get('/register', user.getRegistrationForm);
+  app.post('/register', user.registrationValidator, user.register);
+  app.get('/goodreads_oauth_callback', user.goodreadsOauthCallback);
   app.get('/login', user.getLoginForm);
-  app.post('/login', user.getRequestToken);
-  app.get('/goodreads_oauth_callback', user.getAccessToken);
-  
+  app.post('/login', user.loginValidator, user.login);
+
   app.get('/sync', sync.sync);
 
   app.get('/books', review.allReviews);

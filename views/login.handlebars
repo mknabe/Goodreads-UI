@@ -1,5 +1,22 @@
 <h2>Login</h2>
-<form method="POST" action="/login">
-  <input type="text" name="goodreadsUserId" placeholder="Goodreads User Id" value="{{defaultUserId}}">
-  <button type="submit">Login</button>
+
+<form method="POST" action="/login" novalidate class="ui form">
+    <div class="field {{hasError formValidationErrors.username}}">
+        <small class="error-message">{{formValidationErrors.username.msg}}</small>
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Username" required>
+    </div>
+    <div class="field {{hasError formValidationErrors.password}}">
+        <small class="error-message">{{formValidationErrors.password.msg}}</small>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" required>
+    </div>
+
+    {{#if formError}}
+        <div class="form-error">
+            {{formError}}
+        </div>
+    {{/if}}
+
+    <button class="ui button primary" type="submit">Login</button>
 </form>

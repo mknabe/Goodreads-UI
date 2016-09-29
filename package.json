@@ -12,16 +12,18 @@
   "author": "Maria K",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^0.8.7",
     "bluebird": "^3.4.4",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
     "express-session": "^1.14.0",
+    "express-validator": "^2.20.8",
     "moment": "^2.14.1",
     "mongoose": "^4.5.9",
     "oauth": "^0.9.14",
     "request": "^2.74.0",
-    "xml2js": "^0.4.17"
+    "xml2js": "^0.4.17",
   },
   "devDependencies": {
     "chai": "^3.5.0",

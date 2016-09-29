@@ -43,14 +43,14 @@ $ npm run coverage
 ## TO DO
 
 - [ ] Get rid of DAOs and move things to models
-- [ ] Separate registration and login pages and lock down pages to logged in users
+- [ ] Lock down pages to logged in users, use Passport
 - [ ] Fix books with missing images and numPages (possible to do this programatically?)
 - [ ] Edit book
 - [ ] View author and series
 - [ ] Pie chart of books ratings on book detail
 - [ ] Sorting on reviews page
 - [ ] Figure out how to pull in user updates possibly using user's rss feed 
-- [ ] Sync status updates with goodreads
+- [ ] Sync status updates with goodreads (read statuses)
 - [ ] Figure out how to proxy images
 
 
@@ -58,7 +58,7 @@ $ npm run coverage
 
 
 - [ ] Allow user to read book multiple times
-- [ ] Allow user to have different to-read lists based on what is reserved at the library or downloaded
+- [ ] Allow user to have different to-read lists based on what is reserved at the library or downloaded or not released
 
 
 - [ ] Integrate with [Overdrive API](https://developer.overdrive.com/docs/getting-started) to find what's available at library
